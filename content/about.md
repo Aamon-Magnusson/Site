@@ -13,12 +13,12 @@ Within that I work as a pentester, SOC analyst, and what ever else I'm given.
 
 I've also gained an interest into Gnu/Linux (That is that last time I will add the Gnu on this site), and open source software.
 I've grown to love the customization, and terminal use, that much FOSS software provides.
-With that I use Neovim, and DWM as my main preferred pieces of software.
+With that I use `Neovim`, and `DWM` as my main preferred pieces of software.
 (I will likely try to write something about my preferred workflow)
 
 I am also familiar with Windows.
 (Thanks Microsoft for not making that optional :|)
-Powertoys is an amazing collection of software to make Windows that much more usable.
+`Powertoys` is an amazing collection of software to make Windows that much more usable.
 (Also it's FOSS :))
 
 Outside of tech, I love riding, and working on bikes.
