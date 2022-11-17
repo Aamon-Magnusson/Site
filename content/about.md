@@ -22,7 +22,7 @@ I am also familiar with Windows.
 (Also it's FOSS :))
 
 Outside of tech, I love riding, and working on bikes.
-I currently own 5 bikes, ranging from a fixed gear, to a IBIS Ripmo AF (Full suspension mountain bike).
+I currently own 5 bikes, ranging from a fixed gear, to an IBIS Ripmo AF (Full suspension mountain bike).
 
 On this site I will write about whatever I decide to.
 Some may be guides for things that I know, or that I just learned.

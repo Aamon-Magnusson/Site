@@ -5,7 +5,30 @@
     <link>https://example.com/</link>
     <description>Recent content on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Aamon Magnusson</copyright>
+    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Showcase</title>
+      <link>https://example.com/showcase/</link>
+      <pubDate>Thu, 17 Nov 2022 12:28:55 -0700</pubDate>
+      
+      <guid>https://example.com/showcase/</guid>
+      <description>This page will showcase some things that I have done or made that I am proud of. Not all are technical, just whatever comes to mind.
+DWM I have spent a fairly significant amount of time setting up my DWM config, which can be found on Github. Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space. While DWM is window manager, I have created a desktop environment, to an extent.</description>
+      <content>&lt;p&gt;This page will showcase some things that I have done or made that I am proud of.
+Not all are technical, just whatever comes to mind.&lt;/p&gt;
+&lt;h2 id=&#34;dwm&#34;&gt;&lt;code&gt;DWM&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;https://github.com/Aamon-Magnusson/AamonDwm&#34;&gt;Github&lt;/a&gt;.
+Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space.
+While &lt;code&gt;DWM&lt;/code&gt; is window manager, I have created a desktop environment, to an extent.
+Nearly everything that I need to make a bare Arch Linux install usable is installed through one script.&lt;/p&gt;
+&lt;p&gt;By no means is this impressive to many people, or really impressive at all, I am just proud of the work I&amp;rsquo;ve put into my Linux desktop through &lt;code&gt;DWM&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Aamon-Magnusson/AamonDwm/master/GeneralView.png&#34; alt=&#34;DWM screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;+++&amp;gt;&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://example.com/about/</link>
@@ -29,7 +52,7 @@ With that I use &lt;code&gt;Neovim&lt;/code&gt;, and &lt;code&gt;DWM&lt;/code&gt
 &lt;code&gt;Powertoys&lt;/code&gt; is an amazing collection of software to make Windows that much more usable.
 (Also it&amp;rsquo;s FOSS :))&lt;/p&gt;
 &lt;p&gt;Outside of tech, I love riding, and working on bikes.
-I currently own 5 bikes, ranging from a fixed gear, to a IBIS Ripmo AF (Full suspension mountain bike).&lt;/p&gt;
+I currently own 5 bikes, ranging from a fixed gear, to an IBIS Ripmo AF (Full suspension mountain bike).&lt;/p&gt;
 &lt;p&gt;On this site I will write about whatever I decide to.
 Some may be guides for things that I know, or that I just learned.
 This will help me ingrain the skills I have and learn.
