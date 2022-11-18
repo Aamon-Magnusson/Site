@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aamon&#39;s site</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Aamon&#39;s site</description>
+    <title>Posts on Aamon&#39;s site</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson</copyright>
-    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2022 19:16:25 -0700</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Setup</title>
       <link>https://example.com/posts/hugosetup/</link>
@@ -65,78 +65,6 @@ But really, super easy to use.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; * * * /usr/updateSite.sh
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now at midnight every night my Pi will automatically &lt;code&gt;pull&lt;/code&gt; down any changes I&amp;rsquo;ve made to the site, to host them using &lt;code&gt;apache&lt;/code&gt; the next day.
 That is assuming I remember to run &lt;code&gt;hugo&lt;/code&gt; before I commit the changes, to have the &lt;code&gt;html&lt;/code&gt; version ready in the &lt;code&gt;public&lt;/code&gt; directory of the repo.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>https://example.com/showcase/</link>
-      <pubDate>Thu, 17 Nov 2022 12:28:55 -0700</pubDate>
-      
-      <guid>https://example.com/showcase/</guid>
-      <description>This page will showcase some things that I have done or made that I am proud of. Not all are technical, just whatever comes to mind.
-DWM I have spent a fairly significant amount of time setting up my DWM config, which can be found on Github. Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space. While DWM is window manager, I have created a desktop environment, to an extent.</description>
-      <content>&lt;p&gt;This page will showcase some things that I have done or made that I am proud of.
-Not all are technical, just whatever comes to mind.&lt;/p&gt;
-&lt;h1 id=&#34;dwm&#34;&gt;&lt;code&gt;DWM&lt;/code&gt;&lt;/h1&gt;
-&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;https://github.com/Aamon-Magnusson/AamonDwm&#34;&gt;Github&lt;/a&gt;.
-Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space.
-While &lt;code&gt;DWM&lt;/code&gt; is window manager, I have created a desktop environment, to an extent.
-Nearly everything that I need to make a bare Arch Linux install usable is installed through one script.&lt;/p&gt;
-&lt;p&gt;By no means is this impressive to many people, or really impressive at all, I am just proud of the work I&amp;rsquo;ve put into my Linux desktop through &lt;code&gt;DWM&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Aamon-Magnusson/AamonDwm/master/GeneralView.png&#34; alt=&#34;DWM screenshot&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;running-a-marathon&#34;&gt;Running a marathon&lt;/h1&gt;
-&lt;p&gt;In October 2018 I ran a full marathon.
-All 42.2 kms (26.2 miles).
-At the time I was 17.&lt;/p&gt;
-&lt;p&gt;This was in the middle of my grade 12 cross country season.
-So I was in great shape.
-(Still definitely not in enough shape to run a marathon)
-I was planning on running a 5:00 min/km pace through the marathon.
-I started off great running 4:45 min/km for the first 25~30 kms.&lt;/p&gt;
-&lt;p&gt;I felt strong&amp;hellip;.
-Until I didn&amp;rsquo;t.&lt;/p&gt;
-&lt;p&gt;The last 10 kms were some of the most physically difficult steps I&amp;rsquo;ve taken.
-I went between walking, to pausing to snack, to short jogs for all of 10 steps.
-The only thing getting me through that race was the thought of having an A&amp;amp;W burger afterwards.&lt;/p&gt;
-&lt;p&gt;I eventually finished the marathon after 3 hours and 50 minutes, which stands as my person PB.&lt;/p&gt;
-&lt;p&gt;I do plan on improving on this, as I also plan of training for Ironman style events.
-I have been swimming, running, and increasing riding for some time.
-I plan on running a half Ironman this upcoming summer, getting me back in the pool, on my feet, and pointing my riding into more exercise than just trails.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://example.com/about/</link>
-      <pubDate>Wed, 16 Nov 2022 19:41:02 -0700</pubDate>
-      
-      <guid>https://example.com/about/</guid>
-      <description>Hello,
-I&amp;rsquo;m Aamon.
-I work as a cyber security analyst. Within that I work as a pentester, SOC analyst, and what ever else I&amp;rsquo;m given.
-I&amp;rsquo;ve also gained an interest into Gnu/Linux (That is that last time I will add the Gnu on this site), and open source software. I&amp;rsquo;ve grown to love the customization, and terminal use, that much FOSS software provides. With that I use Neovim, and DWM as my main preferred pieces of software.</description>
-      <content>&lt;p&gt;Hello,&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m Aamon.&lt;/p&gt;
-&lt;p&gt;I work as a cyber security analyst.
-Within that I work as a pentester, SOC analyst, and what ever else I&amp;rsquo;m given.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve also gained an interest into Gnu/Linux (That is that last time I will add the Gnu on this site), and open source software.
-I&amp;rsquo;ve grown to love the customization, and terminal use, that much FOSS software provides.
-With that I use &lt;code&gt;Neovim&lt;/code&gt;, and &lt;code&gt;DWM&lt;/code&gt; as my main preferred pieces of software.
-(I will likely try to write something about my preferred workflow)&lt;/p&gt;
-&lt;p&gt;I am also familiar with Windows.
-(Thanks Microsoft for not making that optional :|)
-&lt;code&gt;Powertoys&lt;/code&gt; is an amazing collection of software to make Windows that much more usable.
-(Also it&amp;rsquo;s FOSS :))&lt;/p&gt;
-&lt;p&gt;Outside of tech, I love riding, and working on bikes.
-I currently own 5 bikes, ranging from a fixed gear, to an IBIS Ripmo AF (Full suspension mountain bike).&lt;/p&gt;
-&lt;p&gt;On this site I will write about whatever I decide to.
-Some may be guides for things that I know, or that I just learned.
-This will help me ingrain the skills I have and learn.
-Others may be recipes that I want to keep a hold of.
-But in total this is largely to get me to write, which is far from one of my highlighted skills.
-I tend to think of myself as a technical person, and this may help me branch out of that.&lt;/p&gt;
-&lt;p&gt;I doubt many will get even here, but thanks for reading, and please reach out to give any guidance or recommendations.&lt;/p&gt;
 </content>
     </item>
     
