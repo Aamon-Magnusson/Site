@@ -3,7 +3,7 @@ title = "Hugo Setup"
 date = "2022-11-17T19:16:25-07:00"
 author = "Aamon"
 #cover = ""
-#tags = ["", ""]
+tags = ["Server", "Self-host"]
 #keywords = ["", ""]
 description = "Here's how I set up my `Hugo` instance locally."
 showFullContent = false
@@ -55,32 +55,32 @@ This makes it feel like that much more of a website, at least to me...
 Within my WiFi network...
 
 To actually broadcast the site, I'm running `apache2`, the tried and true.
-And to get the site's contents into `/var/www/html` I've made use of a `cronjob`.
-This is my first time using `crontab` as I used to find them quite intimidating.
-But really, super easy to use.
-
-First I wrote up a quick script to run:
-
-```bash
-#! /bin/bash
-
-cd /home/aamonm/Programming/Site
-git pull
-sudo rm /var/www/html/* -rf
-sudo cp -r /home/aamonm/Programming/Site/public/* /var/www/html
-```
-
-Then simply open up `crontab`:
-
-```bash
-crontab -e
-```
-
-And enter in the following line:
-
-```bash
-0 0 * * * /usr/updateSite.sh
-```
-
-Now at midnight every night my Pi will automatically `pull` down any changes I've made to the site, to host them using `apache` the next day.
-That is assuming I remember to run `hugo` before I commit the changes, to have the `html` version ready in the `public` directory of the repo.
+<!-- And to get the site's contents into `/var/www/html` I've made use of a `cronjob`. -->
+<!-- This is my first time using `crontab` as I used to find them quite intimidating. -->
+<!-- But really, super easy to use. -->
+<!---->
+<!-- First I wrote up a quick script to run: -->
+<!---->
+<!-- ```bash -->
+<!-- #! /bin/bash -->
+<!---->
+<!-- cd /home/aamonm/Programming/Site -->
+<!-- git pull -->
+<!-- sudo rm /var/www/html/* -rf -->
+<!-- sudo cp -r /home/aamonm/Programming/Site/public/* /var/www/html -->
+<!-- ``` -->
+<!---->
+<!-- Then simply open up `crontab`: -->
+<!---->
+<!-- ```bash -->
+<!-- crontab -e -->
+<!-- ``` -->
+<!---->
+<!-- And enter in the following line: -->
+<!---->
+<!-- ```bash -->
+<!-- 0 0 * * * /usr/updateSite.sh -->
+<!-- ``` -->
+<!---->
+<!-- Now at midnight every night my Pi will automatically `pull` down any changes I've made to the site, to host them using `apache` the next day. -->
+<!-- That is assuming I remember to run `hugo` before I commit the changes, to have the `html` version ready in the `public` directory of the repo. -->

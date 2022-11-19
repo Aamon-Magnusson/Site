@@ -93,6 +93,10 @@
         
       
         
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+        
           <li><a href="/showcase">Showcase</a></li>
         
       
@@ -114,9 +118,24 @@
         
       
         
-          <li><a href="/showcase">Showcase</a></li>
+          <li><a href="/bookmarks">Bookmarks</a></li>
         
       
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase">Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
       
     
   </ul>
@@ -145,6 +164,14 @@
     
   </div>
 
+  
+    <span class="post-tags">
+      
+      #<a href="https://example.com/tags/server/">Server</a>&nbsp;
+      
+      #<a href="https://example.com/tags/self-host/">Self-host</a>&nbsp;
+      
+    </span>
   
   
 
@@ -183,28 +210,59 @@ I connect to the Pi through ssh, which I set a static IP.</p>
 <p>While the static IP makes it easy enough to access the site within my network, I was able to also set a local Domain Name, through my router&rsquo;s &ldquo;DNS Host Mapping&rdquo; setting.
 This makes it feel like that much more of a website, at least to me&hellip;
 Within my WiFi network&hellip;</p>
-<p>To actually broadcast the site, I&rsquo;m running <code>apache2</code>, the tried and true.
-And to get the site&rsquo;s contents into <code>/var/www/html</code> I&rsquo;ve made use of a <code>cronjob</code>.
-This is my first time using <code>crontab</code> as I used to find them quite intimidating.
-But really, super easy to use.</p>
-<p>First I wrote up a quick script to run:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#! /bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>cd /home/aamonm/Programming/Site
-</span></span><span style="display:flex;"><span>git pull
-</span></span><span style="display:flex;"><span>sudo rm /var/www/html/* -rf
-</span></span><span style="display:flex;"><span>sudo cp -r /home/aamonm/Programming/Site/public/* /var/www/html
-</span></span></code></pre></div><p>Then simply open up <code>crontab</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>crontab -e
-</span></span></code></pre></div><p>And enter in the following line:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> * * * /usr/updateSite.sh
-</span></span></code></pre></div><p>Now at midnight every night my Pi will automatically <code>pull</code> down any changes I&rsquo;ve made to the site, to host them using <code>apache</code> the next day.
-That is assuming I remember to run <code>hugo</code> before I commit the changes, to have the <code>html</code> version ready in the <code>public</code> directory of the repo.</p>
+<p>To actually broadcast the site, I&rsquo;m running <code>apache2</code>, the tried and true.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
       </div></div>
 
   
     
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://example.com/posts/nextcloud/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Next Cloud</span>
+            </a>
+        </span>
+        
+        
+    </div>
+</div>
+
   
 
   

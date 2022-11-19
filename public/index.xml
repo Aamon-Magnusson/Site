@@ -9,6 +9,75 @@
     <copyright>Aamon Magnusson</copyright>
     <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bookmarks</title>
+      <link>https://example.com/bookmarks/</link>
+      <pubDate>Sat, 19 Nov 2022 11:58:36 -0700</pubDate>
+      
+      <guid>https://example.com/bookmarks/</guid>
+      <description>This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.
+My NextCloud instance: NextCloud </description>
+      <content>&lt;p&gt;This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My &lt;code&gt;NextCloud&lt;/code&gt; instance: &lt;a href=&#34;http://aamonserver:81&#34;&gt;NextCloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Next Cloud</title>
+      <link>https://example.com/posts/nextcloud/</link>
+      <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
+      
+      <guid>https://example.com/posts/nextcloud/</guid>
+      <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
+NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
+      <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
+Since my goal with is it to make it the best server &lt;strong&gt;for myself&lt;/strong&gt; that I can, it is now running my own &lt;code&gt;NextCloud&lt;/code&gt; instance.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;NextCloud&lt;/code&gt; is an open open-source alternative to Google Drive, OneDrive, or Dropbox.
+As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.
+(While being open-source, which is still cool)
+What makes &lt;code&gt;NextCloud&lt;/code&gt; special is that you can also self host your own instance.&lt;/p&gt;
+&lt;p&gt;They have a few options for hosting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Docker&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Snap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;VM image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I initially tried to get the all-in-one &lt;code&gt;Docker&lt;/code&gt; image working, as I&amp;rsquo;ve had a little experience with &lt;code&gt;Docker&lt;/code&gt; from building a &lt;code&gt;CTF&lt;/code&gt; in work.
+For what ever reason copy pasting the command from the Github didn&amp;rsquo;t work, even though it was the &amp;ldquo;Command for arm64 CPUs like the Raspberry Pi 4&amp;rdquo;.
+I found that fairly strange, as &lt;code&gt;Docker&lt;/code&gt; and other container systems are meant to make running programs work on whatever system.
+Whatever, I just decided to run the &lt;code&gt;Snap&lt;/code&gt; which seems like the preferred method by Linux users.&lt;/p&gt;
+&lt;p&gt;In the past I&amp;rsquo;ve not been a fan of &lt;code&gt;Snap&lt;/code&gt;, but when I think about it as a &lt;code&gt;Docker&lt;/code&gt; replacement I&amp;rsquo;m more of a fan already.&lt;/p&gt;
+&lt;p&gt;To get an instance running with &lt;code&gt;Snap&lt;/code&gt; you only need to run one command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap install nextcloud
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which is really cool!!!&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;However, I have some more specific needs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I can&amp;rsquo;t have it running on port 80, as that&amp;rsquo;s where the &lt;code&gt;apache2&lt;/code&gt; server is running.&lt;/li&gt;
+&lt;li&gt;I want to have all the data running on an external drive, so that it does not impact the system storage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While these sound specific, they are not difficult to setup.&lt;/p&gt;
+&lt;p&gt;First I had to set an environment variable.
+&lt;code&gt;$SNAP_COMMON&lt;/code&gt; is the variable that controls where the data goes.
+To set it for all users creating a file in &lt;code&gt;/etc/profile.d&lt;/code&gt; with the export will do it.
+I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export SNAP_COMMON&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/media/aamonm/Small&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;Drive
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And for the other requirements I ran the following commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap connect nextcloud:removable-media
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap connect nextcloud:network-observe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap set nextcloud ports.http&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;81&lt;/span&gt; ports.https&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;444&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other than that, I opened my browser to &lt;a href=&#34;https://aamonserver:81&#34;&gt;aamonserver:81&lt;/a&gt; and completed the setup.&lt;/p&gt;
+&lt;p&gt;I now have my own &lt;em&gt;cloud&lt;/em&gt; share, so that&amp;rsquo;s pretty cool, and useful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is only accessible from inside my home network at the moment (Same as the site itself)&lt;/li&gt;
+&lt;li&gt;I have not set up certificates, since I can&amp;rsquo;t do that on port 81 or 444, which is where I want it.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Hugo Setup</title>
       <link>https://example.com/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
@@ -48,23 +117,36 @@ I connect to the Pi through ssh, which I set a static IP.&lt;/p&gt;
 &lt;p&gt;While the static IP makes it easy enough to access the site within my network, I was able to also set a local Domain Name, through my router&amp;rsquo;s &amp;ldquo;DNS Host Mapping&amp;rdquo; setting.
 This makes it feel like that much more of a website, at least to me&amp;hellip;
 Within my WiFi network&amp;hellip;&lt;/p&gt;
-&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.
-And to get the site&amp;rsquo;s contents into &lt;code&gt;/var/www/html&lt;/code&gt; I&amp;rsquo;ve made use of a &lt;code&gt;cronjob&lt;/code&gt;.
-This is my first time using &lt;code&gt;crontab&lt;/code&gt; as I used to find them quite intimidating.
-But really, super easy to use.&lt;/p&gt;
-&lt;p&gt;First I wrote up a quick script to run:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#! /bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd /home/aamonm/Programming/Site
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo rm /var/www/html/* -rf
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cp -r /home/aamonm/Programming/Site/public/* /var/www/html
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then simply open up &lt;code&gt;crontab&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;crontab -e
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And enter in the following line:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; * * * /usr/updateSite.sh
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now at midnight every night my Pi will automatically &lt;code&gt;pull&lt;/code&gt; down any changes I&amp;rsquo;ve made to the site, to host them using &lt;code&gt;apache&lt;/code&gt; the next day.
-That is assuming I remember to run &lt;code&gt;hugo&lt;/code&gt; before I commit the changes, to have the &lt;code&gt;html&lt;/code&gt; version ready in the &lt;code&gt;public&lt;/code&gt; directory of the repo.&lt;/p&gt;
+&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </content>
     </item>
     

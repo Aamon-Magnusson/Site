@@ -6,6 +6,27 @@
     <description>Recent content in Tags on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Aamon Magnusson</copyright><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Aamon Magnusson</copyright>
+    <lastBuildDate>Sat, 19 Nov 2022 11:18:22 -0700</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-host</title>
+      <link>https://example.com/tags/self-host/</link>
+      <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
+      
+      <guid>https://example.com/tags/self-host/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://example.com/tags/server/</link>
+      <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
+      
+      <guid>https://example.com/tags/server/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
