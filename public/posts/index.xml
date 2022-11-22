@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aamon&#39;s site</title>
-    <link>https://example.com/posts/</link>
+    <link>http://aamonserver/posts/</link>
     <description>Recent content in Posts on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Aamon Magnusson</copyright>
-    <lastBuildDate>Sat, 19 Nov 2022 11:18:22 -0700</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Aamon Magnusson - 2022</copyright>
+    <lastBuildDate>Sat, 19 Nov 2022 11:18:22 -0700</lastBuildDate><atom:link href="http://aamonserver/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Next Cloud</title>
-      <link>https://example.com/posts/nextcloud/</link>
+      <link>http://aamonserver/posts/nextcloud/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>https://example.com/posts/nextcloud/</guid>
+      <guid>http://aamonserver/posts/nextcloud/</guid>
       <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
 NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
       <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
@@ -64,10 +64,10 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
     
     <item>
       <title>Hugo Setup</title>
-      <link>https://example.com/posts/hugosetup/</link>
+      <link>http://aamonserver/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
       
-      <guid>https://example.com/posts/hugosetup/</guid>
+      <guid>http://aamonserver/posts/hugosetup/</guid>
       <description>This site is written using the Hugo framework. As written on their website:
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 Thus far, I find those statements to be true. By the number of themes I&amp;rsquo;ve been able to find, it does seem popular. It is most definitely fast, and is fairly flexible (for what I have the skill to do this thus far).</description>
