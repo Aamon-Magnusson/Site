@@ -67,7 +67,7 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap connect nextcloud:removable-media
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap connect nextcloud:network-observe
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap set nextcloud ports.http&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;81&lt;/span&gt; ports.https&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;444&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other than that, I opened my browser to &lt;a href=&#34;https://aamonserver:81&#34;&gt;aamonserver:81&lt;/a&gt; and completed the setup.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other than that, I opened my browser to &lt;a href=&#34;http://aamonserver:81&#34;&gt;aamonserver:81&lt;/a&gt; and completed the setup.&lt;/p&gt;
 &lt;p&gt;I now have my own &lt;em&gt;cloud&lt;/em&gt; share, so that&amp;rsquo;s pretty cool, and useful.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

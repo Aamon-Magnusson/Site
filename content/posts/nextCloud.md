@@ -67,7 +67,7 @@ sudo snap connect nextcloud:network-observe
 sudo snap set nextcloud ports.http=81 ports.https=444
 ```
 
-Other than that, I opened my browser to [aamonserver:81](https://aamonserver:81) and completed the setup.
+Other than that, I opened my browser to [aamonserver:81](http://aamonserver:81) and completed the setup.
 
 I now have my own *cloud* share, so that's pretty cool, and useful.
 
