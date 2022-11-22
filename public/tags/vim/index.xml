@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on Aamon&#39;s site</title>
+    <link>http://aamonserver/tags/vim/</link>
+    <description>Recent content in Vim on Aamon&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Aamon Magnusson - 2022</copyright>
+    <lastBuildDate>Mon, 21 Nov 2022 20:18:28 -0700</lastBuildDate><atom:link href="http://aamonserver/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim</title>
+      <link>http://aamonserver/posts/vim/</link>
+      <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
+      
+      <guid>http://aamonserver/posts/vim/</guid>
+      <description>Vi, Vim, Neovim&amp;hellip;
+The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
+I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors.
+This post will go over the way I learned Vim, and how I would recommend someone you learn it.</description>
+      <content>&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Vi&lt;/code&gt; based text editors are known for their complexity, nuance, and speed, for those who learn it.&lt;/p&gt;
+&lt;p&gt;I happen to love using &lt;code&gt;Neovim&lt;/code&gt; as my primary text editor, and find it super beneficial to writing and editing text files.
+I do try to use text files more often than the average person, using &lt;code&gt;Markdown&lt;/code&gt; where ever possible over Word, or other word processors.&lt;/p&gt;
+&lt;p&gt;This post will go over the way I learned &lt;code&gt;Vim&lt;/code&gt;, and how I would recommend someone you learn it.
+(Pretty much all &lt;code&gt;Vim&lt;/code&gt;-like text editors will apply to this post, as I will barely go into configuration, it&amp;rsquo;s all about the &lt;code&gt;Vim&lt;/code&gt;-like actions)&lt;/p&gt;
+&lt;h1 id=&#34;vimtutor&#34;&gt;&lt;code&gt;vimtutor&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;The first step should always be &lt;code&gt;vimtutor&lt;/code&gt;.
+Just run the program in your terminal, and the team behind &lt;code&gt;Vim&lt;/code&gt; will show you some important first keybindings.
+It is not expected that you learn everything there, but a good portion of them are very useful.
+Like you should know &lt;code&gt;hjkl&lt;/code&gt;, &lt;code&gt;dcyp&lt;/code&gt;, &lt;code&gt;web&lt;/code&gt;, &lt;code&gt;iaIA&lt;/code&gt;, &lt;code&gt;vV&amp;lt;c-v&amp;gt;&lt;/code&gt;, &lt;code&gt;ggG&amp;lt;c-d&amp;gt;&amp;lt;c-u&amp;gt;&lt;/code&gt;, and of course &lt;code&gt;:q&lt;/code&gt; and &lt;code&gt;:wq&lt;/code&gt;.
+If after &lt;code&gt;vimtutor&lt;/code&gt; any of these groups, and letters don&amp;rsquo;t make sense, I would recommend going back and reviewing what they mean.
+By no means would I expect you to be able to use these super quick either, that will take practice, but the exposure is what will get you started.&lt;/p&gt;
+&lt;h1 id=&#34;configuration&#34;&gt;Configuration&lt;/h1&gt;
+&lt;p&gt;I know I said I wouldn&amp;rsquo;t go into configuration, but there are some defaults that I feel should come default.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re running standard &lt;code&gt;Vim&lt;/code&gt; your configuration is done in &lt;code&gt;~/.vimrc&lt;/code&gt;.
+For &lt;code&gt;Neovim&lt;/code&gt; it&amp;rsquo;s in &lt;code&gt;~/.config/nvim/init.vim&lt;/code&gt; or &lt;code&gt;init.lua&lt;/code&gt; if you want to get fancy.
+(I would recommend the &lt;code&gt;init.vim&lt;/code&gt; for now, just keeps it the same as &lt;code&gt;Vim&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;The classic way to configure &lt;code&gt;Vim&lt;/code&gt; is with &lt;code&gt;Vimscript&lt;/code&gt;, a language made for &lt;code&gt;Vim&lt;/code&gt;.
+Below are some simple configurations I would make to a new config:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-vimscript&#34; data-lang=&#34;vimscript&#34;&gt;&amp;#34; Line numbers (This is really important)
+set nu
+set relativenumber
+&amp;#34; Get rid of those annoying errorbells
+set noerrorbells
+&amp;#34; I like 4 space tabs, fight me
+set tabstop=4
+set shiftwidth=4
+
+&amp;#34; More advanced but comes default in Neovim
+&amp;#34; Keeps Y more consistent with the other capital letters
+nmap Y y$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;These are the absolute bare minimum configurations I would make, but you may come to see that many write far more into their configs.
+As I do as well.
+I wouldn&amp;rsquo;t recommend you go too crazy for now, as it&amp;rsquo;s good to learn the basic of &lt;code&gt;Vim&lt;/code&gt; before adding features, and you may be surprised, &lt;code&gt;Vim&lt;/code&gt; can do a heck of a lot.
+If in any case you would like to see my real configs just check out &lt;a href=&#34;https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim&#34;&gt;my Dotfiles&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h1&gt;
+&lt;p&gt;From there I would recommend using &lt;code&gt;Vim&lt;/code&gt; or &lt;code&gt;Neovim&lt;/code&gt;.
+Try to use the keybindings I mentioned above in the &lt;a href=&#34;#vimtutor&#34;&gt;&lt;code&gt;vimtutor&lt;/code&gt; section&lt;/a&gt;.
+Adding stuff like:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-vimscript&#34; data-lang=&#34;vimscript&#34;&gt;nnoremap &amp;lt;Up&amp;gt; &amp;lt;Nop&amp;gt;
+nnoremap &amp;lt;Down&amp;gt; &amp;lt;Nop&amp;gt;
+nnoremap &amp;lt;Left&amp;gt; &amp;lt;Nop&amp;gt;
+nnoremap &amp;lt;Right&amp;gt; &amp;lt;Nop&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Could help force you into &lt;code&gt;Vim&lt;/code&gt; motions, but I never did that.
+Many do recommend it, IDK.
+¯\_(ツ)_/¯&lt;/p&gt;
+&lt;p&gt;As you learn what you can&amp;rsquo;t do with these simple motions Google if there&amp;rsquo;s a &lt;code&gt;Vim&lt;/code&gt; way to go it.
+You should also end up learning the &lt;code&gt;:help&lt;/code&gt; pages.
+They take some practice but can be handy.&lt;/p&gt;
+&lt;p&gt;From there I would slowly adding keybindings.
+Add a leader key:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-vimscript&#34; data-lang=&#34;vimscript&#34;&gt;set mapleader = &amp;#34; &amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And map any little functions you want.
+Like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-vimscript&#34; data-lang=&#34;vimscript&#34;&gt;&amp;#34; Enable spell check
+nnoremap &amp;lt;leader&amp;gt;se :set spell spelllang=en_ca&amp;lt;CR&amp;gt;
+nnoremap &amp;lt;leader&amp;gt;sf :set spell spelllang=fr_ca&amp;lt;CR&amp;gt;
+nnoremap &amp;lt;leader&amp;gt;so :set nospell&amp;lt;CR&amp;gt;
+
+&amp;#34; Fix last spelling error
+function! FixLastSpellingError()
+  normal! mm[s1z=`m&amp;#34;
+endfunction
+nnoremap &amp;lt;leader&amp;gt;sl :call FixLastSpellingError()&amp;lt;cr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For example.&lt;/p&gt;
+&lt;p&gt;Some can be just commands you don&amp;rsquo;t want to remember, or type in over and over again.
+Or you can add functionality through the power of &lt;code&gt;Vimscript&lt;/code&gt;.
+(Or &lt;code&gt;Lua&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;After that you can always add plugins, I just feel this should be the last step, and only add what you think you&amp;rsquo;re missing.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;And there&amp;rsquo;s how I would recommend learning &lt;code&gt;Vim&lt;/code&gt;.
+Keep in mind this is not a fast process.
+It took me about a year, to finally get comfortable in &lt;code&gt;Vim&lt;/code&gt;.
+And even then it was continuous improvement to my config, and my skills.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

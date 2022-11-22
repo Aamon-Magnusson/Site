@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Vim :: Aamon&#39;s site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Here&#39;s my guide for how I would recommend you learn `Vim`" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://aamonserver/posts/vim/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/style.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://aamonserver/img/theme-colors/pink.png">
+  <link rel="apple-touch-icon" href="http://aamonserver/img/theme-colors/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Vim">
+<meta property="og:description" content="Here&#39;s my guide for how I would recommend you learn `Vim`" />
+<meta property="og:url" content="http://aamonserver/posts/vim/" />
+<meta property="og:site_name" content="Aamon&#39;s site" />
+
+  
+    <meta property="og:image" content="http://aamonserver/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-11-21 20:18:28 -0700 MST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="pink">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Aamon&#39;s Site
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase">Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://aamonserver/posts/vim/">Vim</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2022-11-21 ::
+        
+      </time>
+    
+    
+      <span class="post-author">Aamon</span>
+    
+    
+  </div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://aamonserver/tags/how-to/">How-To</a>&nbsp;
+      
+      #<a href="http://aamonserver/tags/vim/">Vim</a>&nbsp;
+      
+      #<a href="http://aamonserver/tags/software/">Software</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p><code>Vi</code>, <code>Vim</code>, <code>Neovim</code>&hellip;</p>
+<p>The <code>Vi</code> based text editors are known for their complexity, nuance, and speed, for those who learn it.</p>
+<p>I happen to love using <code>Neovim</code> as my primary text editor, and find it super beneficial to writing and editing text files.
+I do try to use text files more often than the average person, using <code>Markdown</code> where ever possible over Word, or other word processors.</p>
+<p>This post will go over the way I learned <code>Vim</code>, and how I would recommend someone you learn it.
+(Pretty much all <code>Vim</code>-like text editors will apply to this post, as I will barely go into configuration, it&rsquo;s all about the <code>Vim</code>-like actions)</p>
+<h1 id="vimtutor"><code>vimtutor</code><a href="#vimtutor" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>The first step should always be <code>vimtutor</code>.
+Just run the program in your terminal, and the team behind <code>Vim</code> will show you some important first keybindings.
+It is not expected that you learn everything there, but a good portion of them are very useful.
+Like you should know <code>hjkl</code>, <code>dcyp</code>, <code>web</code>, <code>iaIA</code>, <code>vV&lt;c-v&gt;</code>, <code>ggG&lt;c-d&gt;&lt;c-u&gt;</code>, and of course <code>:q</code> and <code>:wq</code>.
+If after <code>vimtutor</code> any of these groups, and letters don&rsquo;t make sense, I would recommend going back and reviewing what they mean.
+By no means would I expect you to be able to use these super quick either, that will take practice, but the exposure is what will get you started.</p>
+<h1 id="configuration">Configuration<a href="#configuration" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>I know I said I wouldn&rsquo;t go into configuration, but there are some defaults that I feel should come default.</p>
+<p>If you&rsquo;re running standard <code>Vim</code> your configuration is done in <code>~/.vimrc</code>.
+For <code>Neovim</code> it&rsquo;s in <code>~/.config/nvim/init.vim</code> or <code>init.lua</code> if you want to get fancy.
+(I would recommend the <code>init.vim</code> for now, just keeps it the same as <code>Vim</code>)</p>
+<p>The classic way to configure <code>Vim</code> is with <code>Vimscript</code>, a language made for <code>Vim</code>.
+Below are some simple configurations I would make to a new config:</p>
+<pre tabindex="0"><code class="language-vimscript" data-lang="vimscript">&#34; Line numbers (This is really important)
+set nu
+set relativenumber
+&#34; Get rid of those annoying errorbells
+set noerrorbells
+&#34; I like 4 space tabs, fight me
+set tabstop=4
+set shiftwidth=4
+
+&#34; More advanced but comes default in Neovim
+&#34; Keeps Y more consistent with the other capital letters
+nmap Y y$
+</code></pre><p>These are the absolute bare minimum configurations I would make, but you may come to see that many write far more into their configs.
+As I do as well.
+I wouldn&rsquo;t recommend you go too crazy for now, as it&rsquo;s good to learn the basic of <code>Vim</code> before adding features, and you may be surprised, <code>Vim</code> can do a heck of a lot.
+If in any case you would like to see my real configs just check out <a href="https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim">my Dotfiles</a>.</p>
+<h1 id="next-steps">Next Steps<a href="#next-steps" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>From there I would recommend using <code>Vim</code> or <code>Neovim</code>.
+Try to use the keybindings I mentioned above in the <a href="#vimtutor"><code>vimtutor</code> section</a>.
+Adding stuff like:</p>
+<pre tabindex="0"><code class="language-vimscript" data-lang="vimscript">nnoremap &lt;Up&gt; &lt;Nop&gt;
+nnoremap &lt;Down&gt; &lt;Nop&gt;
+nnoremap &lt;Left&gt; &lt;Nop&gt;
+nnoremap &lt;Right&gt; &lt;Nop&gt;
+</code></pre><p>Could help force you into <code>Vim</code> motions, but I never did that.
+Many do recommend it, IDK.
+¯\_(ツ)_/¯</p>
+<p>As you learn what you can&rsquo;t do with these simple motions Google if there&rsquo;s a <code>Vim</code> way to go it.
+You should also end up learning the <code>:help</code> pages.
+They take some practice but can be handy.</p>
+<p>From there I would slowly adding keybindings.
+Add a leader key:</p>
+<pre tabindex="0"><code class="language-vimscript" data-lang="vimscript">set mapleader = &#34; &#34;
+</code></pre><p>And map any little functions you want.
+Like this:</p>
+<pre tabindex="0"><code class="language-vimscript" data-lang="vimscript">&#34; Enable spell check
+nnoremap &lt;leader&gt;se :set spell spelllang=en_ca&lt;CR&gt;
+nnoremap &lt;leader&gt;sf :set spell spelllang=fr_ca&lt;CR&gt;
+nnoremap &lt;leader&gt;so :set nospell&lt;CR&gt;
+
+&#34; Fix last spelling error
+function! FixLastSpellingError()
+  normal! mm[s1z=`m&#34;
+endfunction
+nnoremap &lt;leader&gt;sl :call FixLastSpellingError()&lt;cr&gt;
+</code></pre><p>For example.</p>
+<p>Some can be just commands you don&rsquo;t want to remember, or type in over and over again.
+Or you can add functionality through the power of <code>Vimscript</code>.
+(Or <code>Lua</code>)</p>
+<p>After that you can always add plugins, I just feel this should be the last step, and only add what you think you&rsquo;re missing.</p>
+<h1 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>And there&rsquo;s how I would recommend learning <code>Vim</code>.
+Keep in mind this is not a fast process.
+It took me about a year, to finally get comfortable in <code>Vim</code>.
+And even then it was continuous improvement to my config, and my skills.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="http://aamonserver/posts/nextcloud/">
+                <span class="button__text">Next Cloud</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Aamon Magnusson - 2022</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
