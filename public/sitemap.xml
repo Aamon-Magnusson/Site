@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://aamonserver/posts/greeksheetpanchickenandveggieswithorzo/</loc>
+    <lastmod>2022-11-28T18:06:22-07:00</lastmod>
+  </url><url>
+    <loc>http://aamonserver/posts/</loc>
+    <lastmod>2022-11-28T18:06:22-07:00</lastmod>
+  </url><url>
+    <loc>http://aamonserver/tags/recipe/</loc>
+    <lastmod>2022-11-28T18:06:22-07:00</lastmod>
+  </url><url>
+    <loc>http://aamonserver/tags/</loc>
+    <lastmod>2022-11-28T18:06:22-07:00</lastmod>
+  </url><url>
+    <loc>http://aamonserver/posts/teriyakiturkeyricebowl/</loc>
+    <lastmod>2022-11-28T17:55:20-07:00</lastmod>
+  </url><url>
     <loc>http://aamonserver/tags/how-to/</loc>
     <lastmod>2022-11-21T20:18:28-07:00</lastmod>
   </url><url>
-    <loc>http://aamonserver/posts/</loc>
-    <lastmod>2022-11-21T20:18:28-07:00</lastmod>
-  </url><url>
     <loc>http://aamonserver/tags/software/</loc>
-    <lastmod>2022-11-21T20:18:28-07:00</lastmod>
-  </url><url>
-    <loc>http://aamonserver/tags/</loc>
     <lastmod>2022-11-21T20:18:28-07:00</lastmod>
   </url><url>
     <loc>http://aamonserver/tags/vim/</loc>

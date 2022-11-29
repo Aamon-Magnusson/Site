@@ -16,12 +16,12 @@
       <guid>http://aamonserver/posts/vim/</guid>
       <description>Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
-I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors.
+I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.
 This post will go over the way I learned Vim, and how I would recommend someone you learn it.</description>
       <content>&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;Vi&lt;/code&gt; based text editors are known for their complexity, nuance, and speed, for those who learn it.&lt;/p&gt;
 &lt;p&gt;I happen to love using &lt;code&gt;Neovim&lt;/code&gt; as my primary text editor, and find it super beneficial to writing and editing text files.
-I do try to use text files more often than the average person, using &lt;code&gt;Markdown&lt;/code&gt; where ever possible over Word, or other word processors.&lt;/p&gt;
+I do try to use text files more often than the average person, using &lt;code&gt;Markdown&lt;/code&gt; where ever possible over Word, or other word processors, for example.&lt;/p&gt;
 &lt;p&gt;This post will go over the way I learned &lt;code&gt;Vim&lt;/code&gt;, and how I would recommend someone you learn it.
 (Pretty much all &lt;code&gt;Vim&lt;/code&gt;-like text editors will apply to this post, as I will barely go into configuration, it&amp;rsquo;s all about the &lt;code&gt;Vim&lt;/code&gt;-like actions)&lt;/p&gt;
 &lt;h1 id=&#34;vimtutor&#34;&gt;&lt;code&gt;vimtutor&lt;/code&gt;&lt;/h1&gt;
@@ -50,10 +50,10 @@ set shiftwidth=4
 &amp;#34; More advanced but comes default in Neovim
 &amp;#34; Keeps Y more consistent with the other capital letters
 nmap Y y$
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;These are the absolute bare minimum configurations I would make, but you may come to see that many write far more into their configs.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;These are the absolute bare minimum configurations I would use, but you may come to see that many write far more into their configs.
 As I do as well.
-I wouldn&amp;rsquo;t recommend you go too crazy for now, as it&amp;rsquo;s good to learn the basic of &lt;code&gt;Vim&lt;/code&gt; before adding features, and you may be surprised, &lt;code&gt;Vim&lt;/code&gt; can do a heck of a lot.
-If in any case you would like to see my real configs just check out &lt;a href=&#34;https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim&#34;&gt;my Dotfiles&lt;/a&gt;.&lt;/p&gt;
+I wouldn&amp;rsquo;t recommend you go too crazy for now, as it&amp;rsquo;s good to learn the basics of &lt;code&gt;Vim&lt;/code&gt; before adding features, and you may be surprised, &lt;code&gt;Vim&lt;/code&gt; can do a heck of a lot.
+Ifm in any case, you would like to see my real configs just check out &lt;a href=&#34;https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim&#34;&gt;my Dotfiles&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h1&gt;
 &lt;p&gt;From there I would recommend using &lt;code&gt;Vim&lt;/code&gt; or &lt;code&gt;Neovim&lt;/code&gt;.
 Try to use the keybindings I mentioned above in the &lt;a href=&#34;#vimtutor&#34;&gt;&lt;code&gt;vimtutor&lt;/code&gt; section&lt;/a&gt;.

@@ -7,7 +7,7 @@ tags = ["Server", "Self-host"]
 #keywords = ["", ""]
 description = "Here's how I set up my `Hugo` instance locally."
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 #color = "orange" #color from the theme settings
 +++

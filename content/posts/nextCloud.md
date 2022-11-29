@@ -7,7 +7,7 @@ tags = ["Server", "Self-host"]
 #keywords = ["", ""]
 description = "Here's how I set up my `NextCloud` instance locally."
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 #color = "" #color from the theme settings
 +++

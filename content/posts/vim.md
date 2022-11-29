@@ -6,9 +6,9 @@ author = "Aamon"
 #cover = ""
 tags = ["How-To", "Vim", "Software"]
 #keywords = ["", ""]
-description = "Here's my guide for how I would recommend you learn `Vim`"
+description = "Here's my guide for how I would recommend you learn `Vim`."
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 #colour = "" #colour from the theme settings
 +++
@@ -18,7 +18,7 @@ hideComments = false
 The `Vi` based text editors are known for their complexity, nuance, and speed, for those who learn it.
 
 I happen to love using `Neovim` as my primary text editor, and find it super beneficial to writing and editing text files.
-I do try to use text files more often than the average person, using `Markdown` where ever possible over Word, or other word processors.
+I do try to use text files more often than the average person, using `Markdown` where ever possible over Word, or other word processors, for example.
 
 This post will go over the way I learned `Vim`, and how I would recommend someone you learn it.
 (Pretty much all `Vim`-like text editors will apply to this post, as I will barely go into configuration, it's all about the `Vim`-like actions)
@@ -58,10 +58,10 @@ set shiftwidth=4
 nmap Y y$
 ```
 
-These are the absolute bare minimum configurations I would make, but you may come to see that many write far more into their configs.
+These are the absolute bare minimum configurations I would use, but you may come to see that many write far more into their configs.
 As I do as well.
-I wouldn't recommend you go too crazy for now, as it's good to learn the basic of `Vim` before adding features, and you may be surprised, `Vim` can do a heck of a lot.
-If in any case you would like to see my real configs just check out [my Dotfiles](https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim).
+I wouldn't recommend you go too crazy for now, as it's good to learn the basics of `Vim` before adding features, and you may be surprised, `Vim` can do a heck of a lot.
+Ifm in any case, you would like to see my real configs just check out [my Dotfiles](https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim).
 
 # Next Steps
 
