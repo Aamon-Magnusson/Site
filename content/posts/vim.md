@@ -13,6 +13,8 @@ hideComments = false
 #colour = "" #colour from the theme settings
 +++
 
+# Intro
+
 `Vi`, `Vim`, `Neovim`...
 
 The `Vi` based text editors are known for their complexity, nuance, and speed, for those who learn it.
