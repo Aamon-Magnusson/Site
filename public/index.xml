@@ -9,6 +9,61 @@
     <copyright>Aamon Magnusson - 2022</copyright>
     <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="http://aamonserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tmux</title>
+      <link>http://aamonserver/posts/tmux/</link>
+      <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
+      
+      <guid>http://aamonserver/posts/tmux/</guid>
+      <description>Intro tmux is a well known terminal multiplexer. I like to think of it as a window manager for within terminal sessions. Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.
+I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning tmux for some time. I found that DWM was enough terminal control for me, until I started using server ssh sessions more often.</description>
+      <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; is a well known &lt;em&gt;terminal multiplexer&lt;/em&gt;.
+I like to think of it as a window manager for within terminal sessions.
+Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning &lt;code&gt;tmux&lt;/code&gt; for some time.
+I found that &lt;code&gt;DWM&lt;/code&gt; was enough terminal control for me, until I started using server &lt;code&gt;ssh&lt;/code&gt; sessions more often.
+I&amp;rsquo;m no server admin, but just using &lt;code&gt;ssh&lt;/code&gt; for this site, and some work I do is enough for me to begin to appreciate being able to use multiple terminal sessions.
+(Now I just run a &lt;code&gt;kali&lt;/code&gt; laptop behind me a use &lt;code&gt;ssh&lt;/code&gt; to run whatever I need on that machine)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;DWM&lt;/code&gt; allows me to show as many terminals as I want at a given time, or to put them over top of each other.
+However, if I&amp;rsquo;m using &lt;code&gt;ssh&lt;/code&gt; it will not use the same session.
+What I had done in the past was just open up the &lt;code&gt;ssh&lt;/code&gt; session in the new terminal should I need it, but this gets annoying, especially if I&amp;rsquo;m using Windows.
+Now with the use of &lt;code&gt;tmux&lt;/code&gt; I do much more from the same window.
+As I write this I still have 3 terminal windows open at the same time, but each is running a different machine&amp;rsquo;s shell.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;keybindings&#34;&gt;Keybindings&lt;/h1&gt;
+&lt;p&gt;As it is a terminal program the most important thing to learn are keybindings.
+I have not changed any keybindings, as this makes it easier to jump between different machines.&lt;/p&gt;
+&lt;p&gt;The most important keybinding is going to be the &lt;em&gt;&lt;strong&gt;prefix&lt;/strong&gt;&lt;/em&gt;.
+The prefix is what tells &lt;code&gt;tmux&lt;/code&gt; that you are telling it to do something, and not some other program.
+The default is &lt;code&gt;&amp;lt;C-b&amp;gt;&lt;/code&gt;.
+The &lt;em&gt;pre&lt;/em&gt;fix will lead each command, similar to the &lt;code&gt;&amp;lt;leader&amp;gt;&lt;/code&gt; key in &lt;code&gt;Vim&lt;/code&gt;.
+Like &lt;code&gt;&amp;lt;C-b&amp;gt; c&lt;/code&gt;, for example.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;C-b&amp;gt; c New tab
+&amp;lt;C-b&amp;gt; &amp;#34; New horizontal split
+&amp;lt;C-b&amp;gt; % New vertical split
+
+&amp;lt;C-b&amp;gt; &amp;amp; Close tab
+&amp;lt;C-b&amp;gt; x Close split
+&amp;lt;C-b&amp;gt; d Detach from session
+
+&amp;lt;C-b&amp;gt; n Next tab
+&amp;lt;C-b&amp;gt; p Previous tab
+&amp;lt;C-b&amp;gt; &amp;lt;number&amp;gt; Move to respective tab
+&amp;lt;C-b&amp;gt; &amp;lt;arrow key&amp;gt; Move to respective split
+
+&amp;lt;C-b&amp;gt; , Rename tab
+
+&amp;lt;C-b&amp;gt; [ Allow scrollback with arrow keys
+
+&amp;lt;C-b&amp;gt; ? Help menu for keybindings
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;I am far from an advanced &lt;code&gt;tmux&lt;/code&gt; user.
+But I think the keybindings above should make for an easy entry into &lt;code&gt;tmux&lt;/code&gt;.
+Pretty much just tabs and splits.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Greek Sheet Pan Chicken and Veggies with Orzo</title>
       <link>http://aamonserver/posts/greeksheetpanchickenandveggieswithorzo/</link>
       <pubDate>Mon, 28 Nov 2022 18:06:22 -0700</pubDate>
@@ -131,11 +186,11 @@ Top rice with turkey and vegetables and remaining green onions.&lt;/p&gt;
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
       <guid>http://aamonserver/posts/vim/</guid>
-      <description>Vi, Vim, Neovim&amp;hellip;
+      <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
-I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.
-This post will go over the way I learned Vim, and how I would recommend someone you learn it.</description>
-      <content>&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
+      <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;Vi&lt;/code&gt; based text editors are known for their complexity, nuance, and speed, for those who learn it.&lt;/p&gt;
 &lt;p&gt;I happen to love using &lt;code&gt;Neovim&lt;/code&gt; as my primary text editor, and find it super beneficial to writing and editing text files.
 I do try to use text files more often than the average person, using &lt;code&gt;Markdown&lt;/code&gt; where ever possible over Word, or other word processors, for example.&lt;/p&gt;

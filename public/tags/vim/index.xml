@@ -14,11 +14,11 @@
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
       <guid>http://aamonserver/posts/vim/</guid>
-      <description>Vi, Vim, Neovim&amp;hellip;
+      <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
-I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.
-This post will go over the way I learned Vim, and how I would recommend someone you learn it.</description>
-      <content>&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
+      <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Vi&lt;/code&gt;, &lt;code&gt;Vim&lt;/code&gt;, &lt;code&gt;Neovim&lt;/code&gt;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;Vi&lt;/code&gt; based text editors are known for their complexity, nuance, and speed, for those who learn it.&lt;/p&gt;
 &lt;p&gt;I happen to love using &lt;code&gt;Neovim&lt;/code&gt; as my primary text editor, and find it super beneficial to writing and editing text files.
 I do try to use text files more often than the average person, using &lt;code&gt;Markdown&lt;/code&gt; where ever possible over Word, or other word processors, for example.&lt;/p&gt;

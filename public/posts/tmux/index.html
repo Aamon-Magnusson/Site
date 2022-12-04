@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Tmux :: Aamon&#39;s site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My beginners guide to `tmux`." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://aamonserver/posts/tmux/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/style.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://aamonserver/img/theme-colors/pink.png">
+  <link rel="apple-touch-icon" href="http://aamonserver/img/theme-colors/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tmux">
+<meta property="og:description" content="My beginners guide to `tmux`." />
+<meta property="og:url" content="http://aamonserver/posts/tmux/" />
+<meta property="og:site_name" content="Aamon&#39;s site" />
+
+  
+    <meta property="og:image" content="http://aamonserver/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-11-29 22:10:35 -0700 MST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="pink">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Aamon&#39;s Site
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase">Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://aamonserver/posts/tmux/">Tmux</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2022-11-29 ::
+        
+      </time>
+    
+    
+      <span class="post-author">Aamon</span>
+    
+    
+      <span class="post-reading-time">:: 2 min read (405 words)</span>
+    
+  </div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://aamonserver/tags/how-to/">How-To</a>&nbsp;
+      
+      #<a href="http://aamonserver/tags/software/">Software</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p><code>tmux</code> is a well known <em>terminal multiplexer</em>.
+I like to think of it as a window manager for within terminal sessions.
+Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.</p>
+<p>I&rsquo;m going to be honest, I&rsquo;ve been against learning <code>tmux</code> for some time.
+I found that <code>DWM</code> was enough terminal control for me, until I started using server <code>ssh</code> sessions more often.
+I&rsquo;m no server admin, but just using <code>ssh</code> for this site, and some work I do is enough for me to begin to appreciate being able to use multiple terminal sessions.
+(Now I just run a <code>kali</code> laptop behind me a use <code>ssh</code> to run whatever I need on that machine)</p>
+<p><code>DWM</code> allows me to show as many terminals as I want at a given time, or to put them over top of each other.
+However, if I&rsquo;m using <code>ssh</code> it will not use the same session.
+What I had done in the past was just open up the <code>ssh</code> session in the new terminal should I need it, but this gets annoying, especially if I&rsquo;m using Windows.
+Now with the use of <code>tmux</code> I do much more from the same window.
+As I write this I still have 3 terminal windows open at the same time, but each is running a different machine&rsquo;s shell.</p>
+<hr>
+<h1 id="keybindings">Keybindings<a href="#keybindings" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>As it is a terminal program the most important thing to learn are keybindings.
+I have not changed any keybindings, as this makes it easier to jump between different machines.</p>
+<p>The most important keybinding is going to be the <em><strong>prefix</strong></em>.
+The prefix is what tells <code>tmux</code> that you are telling it to do something, and not some other program.
+The default is <code>&lt;C-b&gt;</code>.
+The <em>pre</em>fix will lead each command, similar to the <code>&lt;leader&gt;</code> key in <code>Vim</code>.
+Like <code>&lt;C-b&gt; c</code>, for example.</p>
+<pre tabindex="0"><code>&lt;C-b&gt; c New tab
+&lt;C-b&gt; &#34; New horizontal split
+&lt;C-b&gt; % New vertical split
+
+&lt;C-b&gt; &amp; Close tab
+&lt;C-b&gt; x Close split
+&lt;C-b&gt; d Detach from session
+
+&lt;C-b&gt; n Next tab
+&lt;C-b&gt; p Previous tab
+&lt;C-b&gt; &lt;number&gt; Move to respective tab
+&lt;C-b&gt; &lt;arrow key&gt; Move to respective split
+
+&lt;C-b&gt; , Rename tab
+
+&lt;C-b&gt; [ Allow scrollback with arrow keys
+
+&lt;C-b&gt; ? Help menu for keybindings
+</code></pre><h1 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>I am far from an advanced <code>tmux</code> user.
+But I think the keybindings above should make for an easy entry into <code>tmux</code>.
+Pretty much just tabs and splits.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="http://aamonserver/posts/greeksheetpanchickenandveggieswithorzo/">
+                <span class="button__text">Greek Sheet Pan Chicken and Veggies with Orzo</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Aamon Magnusson - 2022</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

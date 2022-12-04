@@ -38,3 +38,30 @@ The prefix is what tells `tmux` that you are telling it to do something, and not
 The default is `<C-b>`.
 The *pre*fix will lead each command, similar to the `<leader>` key in `Vim`.
 Like `<C-b> c`, for example.
+
+```
+<C-b> c New tab
+<C-b> " New horizontal split
+<C-b> % New vertical split
+
+<C-b> & Close tab
+<C-b> x Close split
+<C-b> d Detach from session
+
+<C-b> n Next tab
+<C-b> p Previous tab
+<C-b> <number> Move to respective tab
+<C-b> <arrow key> Move to respective split
+
+<C-b> , Rename tab
+
+<C-b> [ Allow scrollback with arrow keys
+
+<C-b> ? Help menu for keybindings
+```
+
+# Conclusion
+
+I am far from an advanced `tmux` user.
+But I think the keybindings above should make for an easy entry into `tmux`.
+Pretty much just tabs and splits.
