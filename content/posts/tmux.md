@@ -18,7 +18,7 @@ Allowing the user to have multiple terminal sessions within a single terminal se
 I'm going to be honest, I've been against learning `tmux` for some time.
 I found that `DWM` was enough terminal control for me, until I started using server `ssh` sessions more often.
 I'm no server admin, but just using `ssh` for this site, and some work I do is enough for me to begin to appreciate being able to use multiple terminal sessions.
-(Now I just run a `kali` laptop behind me a use `ssh` to run whatever I need on that machine)
+(Now I just run a `kali` laptop behind me and use `ssh` to run whatever I need on that machine)
 
 `DWM` allows me to show as many terminals as I want at a given time, or to put them over top of each other.
 However, if I'm using `ssh` it will not use the same session.
@@ -38,6 +38,9 @@ The prefix is what tells `tmux` that you are telling it to do something, and not
 The default is `<C-b>`.
 The *pre*fix will lead each command, similar to the `<leader>` key in `Vim`.
 Like `<C-b> c`, for example.
+
+Here are some basics that I'm using to get used to `tmux`.
+Don't want to force too many, but these ones I find useful from the stat.
 
 ```
 <C-b> c New tab
@@ -65,3 +68,6 @@ Like `<C-b> c`, for example.
 I am far from an advanced `tmux` user.
 But I think the keybindings above should make for an easy entry into `tmux`.
 Pretty much just tabs and splits.
+
+I plan on eventually getting into the world of scripting with `tmux` as it could be very powerful with terminal automation.
+I haven't quite found a use case for it yet, but once I don I'll write about it.

@@ -23,7 +23,7 @@ Allowing the user to have multiple terminal sessions within a single terminal se
 &lt;p&gt;I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning &lt;code&gt;tmux&lt;/code&gt; for some time.
 I found that &lt;code&gt;DWM&lt;/code&gt; was enough terminal control for me, until I started using server &lt;code&gt;ssh&lt;/code&gt; sessions more often.
 I&amp;rsquo;m no server admin, but just using &lt;code&gt;ssh&lt;/code&gt; for this site, and some work I do is enough for me to begin to appreciate being able to use multiple terminal sessions.
-(Now I just run a &lt;code&gt;kali&lt;/code&gt; laptop behind me a use &lt;code&gt;ssh&lt;/code&gt; to run whatever I need on that machine)&lt;/p&gt;
+(Now I just run a &lt;code&gt;kali&lt;/code&gt; laptop behind me and use &lt;code&gt;ssh&lt;/code&gt; to run whatever I need on that machine)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;DWM&lt;/code&gt; allows me to show as many terminals as I want at a given time, or to put them over top of each other.
 However, if I&amp;rsquo;m using &lt;code&gt;ssh&lt;/code&gt; it will not use the same session.
 What I had done in the past was just open up the &lt;code&gt;ssh&lt;/code&gt; session in the new terminal should I need it, but this gets annoying, especially if I&amp;rsquo;m using Windows.
@@ -38,6 +38,8 @@ The prefix is what tells &lt;code&gt;tmux&lt;/code&gt; that you are telling it t
 The default is &lt;code&gt;&amp;lt;C-b&amp;gt;&lt;/code&gt;.
 The &lt;em&gt;pre&lt;/em&gt;fix will lead each command, similar to the &lt;code&gt;&amp;lt;leader&amp;gt;&lt;/code&gt; key in &lt;code&gt;Vim&lt;/code&gt;.
 Like &lt;code&gt;&amp;lt;C-b&amp;gt; c&lt;/code&gt;, for example.&lt;/p&gt;
+&lt;p&gt;Here are some basics that I&amp;rsquo;m using to get used to &lt;code&gt;tmux&lt;/code&gt;.
+Don&amp;rsquo;t want to force too many, but these ones I find useful from the stat.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;C-b&amp;gt; c New tab
 &amp;lt;C-b&amp;gt; &amp;#34; New horizontal split
 &amp;lt;C-b&amp;gt; % New vertical split
@@ -60,123 +62,8 @@ Like &lt;code&gt;&amp;lt;C-b&amp;gt; c&lt;/code&gt;, for example.&lt;/p&gt;
 &lt;p&gt;I am far from an advanced &lt;code&gt;tmux&lt;/code&gt; user.
 But I think the keybindings above should make for an easy entry into &lt;code&gt;tmux&lt;/code&gt;.
 Pretty much just tabs and splits.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Greek Sheet Pan Chicken and Veggies with Orzo</title>
-      <link>http://142.59.180.132/posts/greeksheetpanchickenandveggieswithorzo/</link>
-      <pubDate>Mon, 28 Nov 2022 18:06:22 -0700</pubDate>
-      
-      <guid>http://142.59.180.132/posts/greeksheetpanchickenandveggieswithorzo/</guid>
-      <description>This post is not done
-Put image here
-Ingredients 1 lb chicken (use thighs or 2 large chicken breasts 1 red pepper, diced 1 yellow pepper, diced 1 zucchini, thickly sliced 1/2 red onion, thickly sliced 2 TBSP olive oil 2 TBSP lemon juice (1 lemon) 4 cloves of garlic 1 TBSP oregano 1 tsp salt 1/2 tsp pepper 1/4 cup feta cheese, crumbled ORZO ~300 grams Directions Preheat oven to 400F.</description>
-      <content>&lt;p&gt;&lt;em&gt;&lt;strong&gt;This post is not done&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Put image here&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1 lb chicken (use thighs or 2 large chicken breasts&lt;/li&gt;
-&lt;li&gt;1 red pepper, diced&lt;/li&gt;
-&lt;li&gt;1 yellow pepper, diced&lt;/li&gt;
-&lt;li&gt;1 zucchini, thickly sliced&lt;/li&gt;
-&lt;li&gt;1/2 red onion, thickly sliced&lt;/li&gt;
-&lt;li&gt;2 TBSP olive oil&lt;/li&gt;
-&lt;li&gt;2 TBSP lemon juice (1 lemon)&lt;/li&gt;
-&lt;li&gt;4 cloves of garlic&lt;/li&gt;
-&lt;li&gt;1 TBSP oregano&lt;/li&gt;
-&lt;li&gt;1 tsp salt&lt;/li&gt;
-&lt;li&gt;1/2 tsp pepper&lt;/li&gt;
-&lt;li&gt;1/4 cup feta cheese, crumbled&lt;/li&gt;
-&lt;li&gt;ORZO
-&lt;ul&gt;
-&lt;li&gt;~300 grams&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;p&gt;Preheat oven to 400F.
-Combined chicken and vegetables in bowl.
-Whisk together olive oil, lemon juice, garlic, oregano, salt and pepper.
-Add to chicken and veggies and mix well.&lt;/p&gt;
-&lt;p&gt;Pour onto a large baking sheet covered with parchment.
-Bake ~20minutes until chicken is fully cooked.&lt;/p&gt;
-&lt;p&gt;Make Orzo while chicken is cooking.&lt;/p&gt;
-&lt;p&gt;Boil water, add salt.
-Add orzo and cook ~8-10min.
-Drain.&lt;/p&gt;
-&lt;p&gt;Saute 1 TBSP of oil olive with 1 diced tomato and 1 garlic clove x 2min.
-Add cooked Orzo, zest from 1 lemon, and juice from 1 lemon.
-Season with salt and upper.
-Add 1/4-1/2 cup of chicken broth.
-(Or 1/4 -1/2 cup of water with broth concentrate).&lt;/p&gt;
-&lt;p&gt;Serve chicken over Orzo with feta.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Teriyaki Turkey Rice Bowl</title>
-      <link>http://142.59.180.132/posts/teriyakiturkeyricebowl/</link>
-      <pubDate>Mon, 28 Nov 2022 17:55:20 -0700</pubDate>
-      
-      <guid>http://142.59.180.132/posts/teriyakiturkeyricebowl/</guid>
-      <description>This post is not done
-Put image here
-Ingredients minced turkey 250g rice ¾ cup red pepper 160g bok choy or zucchini 226g carrot 170g sesame seeds 1 tbsp garlic 3 g teriyaki sauce ½ cup corn starch ½ tbsp hoisin sauce 2 tbs green onion 2 Directions Prep: Cut bok choy into 1 Inch pieces. Thinly slice green onions. Peel then mince garlic. Core and cut peppers into 1/2 in pieces.</description>
-      <content>&lt;p&gt;&lt;em&gt;&lt;strong&gt;This post is not done&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Put image here&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;minced turkey 250g&lt;/li&gt;
-&lt;li&gt;rice ¾ cup&lt;/li&gt;
-&lt;li&gt;red pepper 160g&lt;/li&gt;
-&lt;li&gt;bok choy or zucchini 226g&lt;/li&gt;
-&lt;li&gt;carrot 170g&lt;/li&gt;
-&lt;li&gt;sesame seeds 1 tbsp&lt;/li&gt;
-&lt;li&gt;garlic 3 g&lt;/li&gt;
-&lt;li&gt;teriyaki sauce ½ cup&lt;/li&gt;
-&lt;li&gt;corn starch ½ tbsp&lt;/li&gt;
-&lt;li&gt;hoisin sauce 2 tbs&lt;/li&gt;
-&lt;li&gt;green onion 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;
-&lt;h3 id=&#34;prep&#34;&gt;Prep:&lt;/h3&gt;
-&lt;p&gt;Cut bok choy into 1 Inch pieces.
-Thinly slice green onions.
-Peel then mince garlic.
-Core and cut peppers into 1/2 in pieces.
-Peel then cut carrots into ¼ inch coins&lt;/p&gt;
-&lt;h3 id=&#34;cook-rice&#34;&gt;Cook rice:&lt;/h3&gt;
-&lt;p&gt;½ Tbsp oil in pot.
-Then add garlic and rice and ½ of sesame seeds.
-Cook stirring often for 1-2 min.
-Add 1 ¼ Cup water and bring to boil over high heat.
-Reduce heat to low.
-Cover and cook until rice is tender and liquid absorbed 12-14min.&lt;/p&gt;
-&lt;h3 id=&#34;cook-veggies&#34;&gt;Cook veggies:&lt;/h3&gt;
-&lt;p&gt;Heat fry pan over med-high heat.
-Add 1 tbsp.
-Add carrots then peppers.
-Cook 4-5 min.
-Season with salt and pepper.
-Add bok choy.
-Cook until soft 2-3 min.
-Remove from heat.
-Keep warm.&lt;/p&gt;
-&lt;h3 id=&#34;make-cornstarch-mixture&#34;&gt;Make cornstarch mixture:&lt;/h3&gt;
-&lt;p&gt;Whisk together hoisin sauce, teriyaki sauce, ½ tbsp corn starch and 1/2 cup water.&lt;/p&gt;
-&lt;h3 id=&#34;cook-turkey&#34;&gt;Cook turkey:&lt;/h3&gt;
-&lt;p&gt;Add 1 tbsp oil.
-Then turkey.
-Cook 4-5min until no longer pink.
-Add corn starch mixture to pan with turkey.
-Bring to boil over high heat.
-Once boiling cook stirring often until sauce is slightly thick 2-3 min.
-Season with salt and pepper.&lt;/p&gt;
-&lt;p&gt;Fluff rice with fork.
-Stir in ½ of green onions.
-Season with salt.
-Top rice with turkey and vegetables and remaining green onions.&lt;/p&gt;
+&lt;p&gt;I plan on eventually getting into the world of scripting with &lt;code&gt;tmux&lt;/code&gt; as it could be very powerful with terminal automation.
+I haven&amp;rsquo;t quite found a use case for it yet, but once I don I&amp;rsquo;ll write about it.&lt;/p&gt;
 </content>
     </item>
     

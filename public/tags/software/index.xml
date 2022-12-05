@@ -23,7 +23,7 @@ Allowing the user to have multiple terminal sessions within a single terminal se
 &lt;p&gt;I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning &lt;code&gt;tmux&lt;/code&gt; for some time.
 I found that &lt;code&gt;DWM&lt;/code&gt; was enough terminal control for me, until I started using server &lt;code&gt;ssh&lt;/code&gt; sessions more often.
 I&amp;rsquo;m no server admin, but just using &lt;code&gt;ssh&lt;/code&gt; for this site, and some work I do is enough for me to begin to appreciate being able to use multiple terminal sessions.
-(Now I just run a &lt;code&gt;kali&lt;/code&gt; laptop behind me a use &lt;code&gt;ssh&lt;/code&gt; to run whatever I need on that machine)&lt;/p&gt;
+(Now I just run a &lt;code&gt;kali&lt;/code&gt; laptop behind me and use &lt;code&gt;ssh&lt;/code&gt; to run whatever I need on that machine)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;DWM&lt;/code&gt; allows me to show as many terminals as I want at a given time, or to put them over top of each other.
 However, if I&amp;rsquo;m using &lt;code&gt;ssh&lt;/code&gt; it will not use the same session.
 What I had done in the past was just open up the &lt;code&gt;ssh&lt;/code&gt; session in the new terminal should I need it, but this gets annoying, especially if I&amp;rsquo;m using Windows.
@@ -38,6 +38,8 @@ The prefix is what tells &lt;code&gt;tmux&lt;/code&gt; that you are telling it t
 The default is &lt;code&gt;&amp;lt;C-b&amp;gt;&lt;/code&gt;.
 The &lt;em&gt;pre&lt;/em&gt;fix will lead each command, similar to the &lt;code&gt;&amp;lt;leader&amp;gt;&lt;/code&gt; key in &lt;code&gt;Vim&lt;/code&gt;.
 Like &lt;code&gt;&amp;lt;C-b&amp;gt; c&lt;/code&gt;, for example.&lt;/p&gt;
+&lt;p&gt;Here are some basics that I&amp;rsquo;m using to get used to &lt;code&gt;tmux&lt;/code&gt;.
+Don&amp;rsquo;t want to force too many, but these ones I find useful from the stat.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;C-b&amp;gt; c New tab
 &amp;lt;C-b&amp;gt; &amp;#34; New horizontal split
 &amp;lt;C-b&amp;gt; % New vertical split
@@ -60,6 +62,8 @@ Like &lt;code&gt;&amp;lt;C-b&amp;gt; c&lt;/code&gt;, for example.&lt;/p&gt;
 &lt;p&gt;I am far from an advanced &lt;code&gt;tmux&lt;/code&gt; user.
 But I think the keybindings above should make for an easy entry into &lt;code&gt;tmux&lt;/code&gt;.
 Pretty much just tabs and splits.&lt;/p&gt;
+&lt;p&gt;I plan on eventually getting into the world of scripting with &lt;code&gt;tmux&lt;/code&gt; as it could be very powerful with terminal automation.
+I haven&amp;rsquo;t quite found a use case for it yet, but once I don I&amp;rsquo;ll write about it.&lt;/p&gt;
 </content>
     </item>
     
