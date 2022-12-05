@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aamon&#39;s site</title>
-    <link>http://aamonserver/</link>
+    <link>http://142.59.180.132/</link>
     <description>Recent content on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="http://aamonserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="http://142.59.180.132/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tmux</title>
-      <link>http://aamonserver/posts/tmux/</link>
+      <link>http://142.59.180.132/posts/tmux/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/tmux/</guid>
+      <guid>http://142.59.180.132/posts/tmux/</guid>
       <description>Intro tmux is a well known terminal multiplexer. I like to think of it as a window manager for within terminal sessions. Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.
 I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning tmux for some time. I found that DWM was enough terminal control for me, until I started using server ssh sessions more often.</description>
       <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
@@ -65,10 +65,10 @@ Pretty much just tabs and splits.&lt;/p&gt;
     
     <item>
       <title>Greek Sheet Pan Chicken and Veggies with Orzo</title>
-      <link>http://aamonserver/posts/greeksheetpanchickenandveggieswithorzo/</link>
+      <link>http://142.59.180.132/posts/greeksheetpanchickenandveggieswithorzo/</link>
       <pubDate>Mon, 28 Nov 2022 18:06:22 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/greeksheetpanchickenandveggieswithorzo/</guid>
+      <guid>http://142.59.180.132/posts/greeksheetpanchickenandveggieswithorzo/</guid>
       <description>This post is not done
 Put image here
 Ingredients 1 lb chicken (use thighs or 2 large chicken breasts 1 red pepper, diced 1 yellow pepper, diced 1 zucchini, thickly sliced 1/2 red onion, thickly sliced 2 TBSP olive oil 2 TBSP lemon juice (1 lemon) 4 cloves of garlic 1 TBSP oregano 1 tsp salt 1/2 tsp pepper 1/4 cup feta cheese, crumbled ORZO ~300 grams Directions Preheat oven to 400F.</description>
@@ -116,10 +116,10 @@ Add 1/4-1/2 cup of chicken broth.
     
     <item>
       <title>Teriyaki Turkey Rice Bowl</title>
-      <link>http://aamonserver/posts/teriyakiturkeyricebowl/</link>
+      <link>http://142.59.180.132/posts/teriyakiturkeyricebowl/</link>
       <pubDate>Mon, 28 Nov 2022 17:55:20 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/teriyakiturkeyricebowl/</guid>
+      <guid>http://142.59.180.132/posts/teriyakiturkeyricebowl/</guid>
       <description>This post is not done
 Put image here
 Ingredients minced turkey 250g rice ¾ cup red pepper 160g bok choy or zucchini 226g carrot 170g sesame seeds 1 tbsp garlic 3 g teriyaki sauce ½ cup corn starch ½ tbsp hoisin sauce 2 tbs green onion 2 Directions Prep: Cut bok choy into 1 Inch pieces. Thinly slice green onions. Peel then mince garlic. Core and cut peppers into 1/2 in pieces.</description>
@@ -182,10 +182,10 @@ Top rice with turkey and vegetables and remaining green onions.&lt;/p&gt;
     
     <item>
       <title>Vim</title>
-      <link>http://aamonserver/posts/vim/</link>
+      <link>http://142.59.180.132/posts/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/vim/</guid>
+      <guid>http://142.59.180.132/posts/vim/</guid>
       <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
 I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
@@ -270,25 +270,25 @@ And even then it was continuous improvement to my config, and my skills.&lt;/p&g
     
     <item>
       <title>Bookmarks</title>
-      <link>http://aamonserver/bookmarks/</link>
+      <link>http://142.59.180.132/bookmarks/</link>
       <pubDate>Sat, 19 Nov 2022 11:58:36 -0700</pubDate>
       
-      <guid>http://aamonserver/bookmarks/</guid>
+      <guid>http://142.59.180.132/bookmarks/</guid>
       <description>This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.
-My NextCloud instance: NextCloud </description>
+My NextCloud instance: NextCloud (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet) </description>
       <content>&lt;p&gt;This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;My &lt;code&gt;NextCloud&lt;/code&gt; instance: &lt;a href=&#34;http://aamonserver:81&#34;&gt;NextCloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My &lt;code&gt;NextCloud&lt;/code&gt; instance: &lt;a href=&#34;http://aamonserver:81&#34;&gt;NextCloud&lt;/a&gt; (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
     
     <item>
       <title>Next Cloud</title>
-      <link>http://aamonserver/posts/nextcloud/</link>
+      <link>http://142.59.180.132/posts/nextcloud/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/nextcloud/</guid>
+      <guid>http://142.59.180.132/posts/nextcloud/</guid>
       <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
 NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
       <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
@@ -339,10 +339,10 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://aamonserver/posts/hugosetup/</link>
+      <link>http://142.59.180.132/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/hugosetup/</guid>
+      <guid>http://142.59.180.132/posts/hugosetup/</guid>
       <description>This site is written using the Hugo framework. As written on their website:
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 Thus far, I find those statements to be true. By the number of themes I&amp;rsquo;ve been able to find, it does seem popular. It is most definitely fast, and is fairly flexible (for what I have the skill to do this thus far).</description>
@@ -368,16 +368,23 @@ I then ran:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new about.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new showcase.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new _index.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And started filling the site with some content.&lt;/p&gt;
-&lt;p&gt;Where I find it gets more interesting (can you tell I&amp;rsquo;m not a web dev?)	is how I have the site running in the first place.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And started filling the site with some content.
+Like to make this post:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/hugoSetup.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Where I find it gets more interesting (can you tell I&amp;rsquo;m not a web dev?)	is how I have the site running in the first place.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m (at least currently) hosting this site locally off of my Raspberry Pi 4.
 Nice and light weight ARM machine, that I currently don&amp;rsquo;t have too many uses for.
 (I do want to self host &lt;code&gt;NextCloud&lt;/code&gt; as well, stay tuned)
-I connect to the Pi through ssh, which I set a static IP.&lt;/p&gt;
+I connect to the Pi through ssh, which I set a static IP within my LAN.&lt;/p&gt;
+&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.&lt;/p&gt;
 &lt;p&gt;While the static IP makes it easy enough to access the site within my network, I was able to also set a local Domain Name, through my router&amp;rsquo;s &amp;ldquo;DNS Host Mapping&amp;rdquo; setting.
 This makes it feel like that much more of a website, at least to me&amp;hellip;
 Within my WiFi network&amp;hellip;&lt;/p&gt;
-&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.&lt;/p&gt;
+&lt;p&gt;I have also set up port forwarding to make the site accessible everywhere on the Internet.
+This was much easier than expected, going into the &amp;ldquo;Port Forwarding&amp;rdquo; setting in my router.
+I may eventually get my own domain name, which is not super expensive, but not yet.&lt;/p&gt;
+&lt;p&gt;I plan on getting a cron job working to update the site to whatever is pushed up to my &lt;code&gt;Github&lt;/code&gt;, but so far I have not been able to make that work.
+Will show my steps to that at a later date.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -412,10 +419,10 @@ Within my WiFi network&amp;hellip;&lt;/p&gt;
     
     <item>
       <title>Showcase</title>
-      <link>http://aamonserver/showcase/</link>
+      <link>http://142.59.180.132/showcase/</link>
       <pubDate>Thu, 17 Nov 2022 12:28:55 -0700</pubDate>
       
-      <guid>http://aamonserver/showcase/</guid>
+      <guid>http://142.59.180.132/showcase/</guid>
       <description>This page will showcase some things that I have done or made that I am proud of. Not all are technical, just whatever comes to mind.
 DWM I have spent a fairly significant amount of time setting up my DWM config, which can be found on Github. Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space. While DWM is window manager, I have created a desktop environment, to an extent.</description>
       <content>&lt;p&gt;This page will showcase some things that I have done or made that I am proud of.
@@ -450,10 +457,10 @@ I plan on running a half Ironman this upcoming summer, getting me back in the po
     
     <item>
       <title>About</title>
-      <link>http://aamonserver/about/</link>
+      <link>http://142.59.180.132/about/</link>
       <pubDate>Wed, 16 Nov 2022 19:41:02 -0700</pubDate>
       
-      <guid>http://aamonserver/about/</guid>
+      <guid>http://142.59.180.132/about/</guid>
       <description>Hello,
 I&amp;rsquo;m Aamon.
 I work as a cyber security analyst. Within that I work as a pentester, SOC analyst, and what ever else I&amp;rsquo;m given.

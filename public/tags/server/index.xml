@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on Aamon&#39;s site</title>
-    <link>http://aamonserver/tags/server/</link>
+    <link>http://142.59.180.132/tags/server/</link>
     <description>Recent content in Server on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Sat, 19 Nov 2022 11:18:22 -0700</lastBuildDate><atom:link href="http://aamonserver/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 11:18:22 -0700</lastBuildDate><atom:link href="http://142.59.180.132/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Next Cloud</title>
-      <link>http://aamonserver/posts/nextcloud/</link>
+      <link>http://142.59.180.132/posts/nextcloud/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/nextcloud/</guid>
+      <guid>http://142.59.180.132/posts/nextcloud/</guid>
       <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
 NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
       <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
@@ -64,10 +64,10 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://aamonserver/posts/hugosetup/</link>
+      <link>http://142.59.180.132/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
       
-      <guid>http://aamonserver/posts/hugosetup/</guid>
+      <guid>http://142.59.180.132/posts/hugosetup/</guid>
       <description>This site is written using the Hugo framework. As written on their website:
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 Thus far, I find those statements to be true. By the number of themes I&amp;rsquo;ve been able to find, it does seem popular. It is most definitely fast, and is fairly flexible (for what I have the skill to do this thus far).</description>
@@ -93,16 +93,23 @@ I then ran:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new about.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new showcase.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new _index.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And started filling the site with some content.&lt;/p&gt;
-&lt;p&gt;Where I find it gets more interesting (can you tell I&amp;rsquo;m not a web dev?)	is how I have the site running in the first place.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And started filling the site with some content.
+Like to make this post:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/hugoSetup.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Where I find it gets more interesting (can you tell I&amp;rsquo;m not a web dev?)	is how I have the site running in the first place.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m (at least currently) hosting this site locally off of my Raspberry Pi 4.
 Nice and light weight ARM machine, that I currently don&amp;rsquo;t have too many uses for.
 (I do want to self host &lt;code&gt;NextCloud&lt;/code&gt; as well, stay tuned)
-I connect to the Pi through ssh, which I set a static IP.&lt;/p&gt;
+I connect to the Pi through ssh, which I set a static IP within my LAN.&lt;/p&gt;
+&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.&lt;/p&gt;
 &lt;p&gt;While the static IP makes it easy enough to access the site within my network, I was able to also set a local Domain Name, through my router&amp;rsquo;s &amp;ldquo;DNS Host Mapping&amp;rdquo; setting.
 This makes it feel like that much more of a website, at least to me&amp;hellip;
 Within my WiFi network&amp;hellip;&lt;/p&gt;
-&lt;p&gt;To actually broadcast the site, I&amp;rsquo;m running &lt;code&gt;apache2&lt;/code&gt;, the tried and true.&lt;/p&gt;
+&lt;p&gt;I have also set up port forwarding to make the site accessible everywhere on the Internet.
+This was much easier than expected, going into the &amp;ldquo;Port Forwarding&amp;rdquo; setting in my router.
+I may eventually get my own domain name, which is not super expensive, but not yet.&lt;/p&gt;
+&lt;p&gt;I plan on getting a cron job working to update the site to whatever is pushed up to my &lt;code&gt;Github&lt;/code&gt;, but so far I have not been able to make that work.
+Will show my steps to that at a later date.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;

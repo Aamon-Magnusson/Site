@@ -42,19 +42,32 @@ hugo new _index.md
 ```
 
 And started filling the site with some content.
+Like to make this post:
+
+```bash
+hugo new posts/hugoSetup.md
+```
 
 Where I find it gets more interesting (can you tell I'm not a web dev?)	is how I have the site running in the first place.
 
 I'm (at least currently) hosting this site locally off of my Raspberry Pi 4.
 Nice and light weight ARM machine, that I currently don't have too many uses for.
 (I do want to self host `NextCloud` as well, stay tuned)
-I connect to the Pi through ssh, which I set a static IP.
+I connect to the Pi through ssh, which I set a static IP within my LAN.
+
+To actually broadcast the site, I'm running `apache2`, the tried and true.
 
 While the static IP makes it easy enough to access the site within my network, I was able to also set a local Domain Name, through my router's "DNS Host Mapping" setting.
 This makes it feel like that much more of a website, at least to me...
 Within my WiFi network...
 
-To actually broadcast the site, I'm running `apache2`, the tried and true.
+I have also set up port forwarding to make the site accessible everywhere on the Internet.
+This was much easier than expected, going into the "Port Forwarding" setting in my router.
+I may eventually get my own domain name, which is not super expensive, but not yet.
+
+I plan on getting a cron job working to update the site to whatever is pushed up to my `Github`, but so far I have not been able to make that work.
+Will show my steps to that at a later date.
+
 <!-- And to get the site's contents into `/var/www/html` I've made use of a `cronjob`. -->
 <!-- This is my first time using `crontab` as I used to find them quite intimidating. -->
 <!-- But really, super easy to use. -->

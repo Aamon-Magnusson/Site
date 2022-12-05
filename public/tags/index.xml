@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aamon&#39;s site</title>
-    <link>http://aamonserver/tags/</link>
+    <link>http://142.59.180.132/tags/</link>
     <description>Recent content in Tags on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://aamonserver/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://142.59.180.132/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How-To</title>
-      <link>http://aamonserver/tags/how-to/</link>
+      <link>http://142.59.180.132/tags/how-to/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/how-to/</guid>
+      <guid>http://142.59.180.132/tags/how-to/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://aamonserver/tags/software/</link>
+      <link>http://142.59.180.132/tags/software/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/software/</guid>
+      <guid>http://142.59.180.132/tags/software/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Recipe</title>
-      <link>http://aamonserver/tags/recipe/</link>
+      <link>http://142.59.180.132/tags/recipe/</link>
       <pubDate>Mon, 28 Nov 2022 18:06:22 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/recipe/</guid>
+      <guid>http://142.59.180.132/tags/recipe/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://aamonserver/tags/vim/</link>
+      <link>http://142.59.180.132/tags/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/vim/</guid>
+      <guid>http://142.59.180.132/tags/vim/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Self-host</title>
-      <link>http://aamonserver/tags/self-host/</link>
+      <link>http://142.59.180.132/tags/self-host/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/self-host/</guid>
+      <guid>http://142.59.180.132/tags/self-host/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Server</title>
-      <link>http://aamonserver/tags/server/</link>
+      <link>http://142.59.180.132/tags/server/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://aamonserver/tags/server/</guid>
+      <guid>http://142.59.180.132/tags/server/</guid>
       <description></description>
       <content></content>
     </item>
