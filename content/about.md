@@ -31,4 +31,5 @@ Others may be recipes that I want to keep a hold of.
 But in total this is largely to get me to write, which is far from one of my highlighted skills.
 I tend to think of myself as a technical person, and this may help me branch out of that.
 
-I doubt many will get even here, but thanks for reading, and please reach out to give any guidance or recommendations.
+I doubt many will get even here, but thanks for reading, and please reach out.
+If that's to give any guidance or recommendations, to bring up some new topics, or just to chat.

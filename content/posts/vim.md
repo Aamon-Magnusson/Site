@@ -54,6 +54,8 @@ set noerrorbells
 " I like 4 space tabs, fight me
 set tabstop=4
 set shiftwidth=4
+" Get syntax highlighting
+syntax enable
 
 " More advanced but comes default in Neovim
 " Keeps Y more consistent with the other capital letters
@@ -63,7 +65,7 @@ nmap Y y$
 These are the absolute bare minimum configurations I would use, but you may come to see that many write far more into their configs.
 As I do as well.
 I wouldn't recommend you go too crazy for now, as it's good to learn the basics of `Vim` before adding features, and you may be surprised, `Vim` can do a heck of a lot.
-Ifm in any case, you would like to see my real configs just check out [my Dotfiles](https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim).
+In in any case, you would like to see my real configs just check out [my Dotfiles](https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim).
 
 # Next Steps
 

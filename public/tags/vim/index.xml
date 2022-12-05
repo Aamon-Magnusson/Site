@@ -46,6 +46,8 @@ set noerrorbells
 &amp;#34; I like 4 space tabs, fight me
 set tabstop=4
 set shiftwidth=4
+&amp;#34; Get syntax highlighting
+syntax enable
 
 &amp;#34; More advanced but comes default in Neovim
 &amp;#34; Keeps Y more consistent with the other capital letters
@@ -53,7 +55,7 @@ nmap Y y$
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;These are the absolute bare minimum configurations I would use, but you may come to see that many write far more into their configs.
 As I do as well.
 I wouldn&amp;rsquo;t recommend you go too crazy for now, as it&amp;rsquo;s good to learn the basics of &lt;code&gt;Vim&lt;/code&gt; before adding features, and you may be surprised, &lt;code&gt;Vim&lt;/code&gt; can do a heck of a lot.
-Ifm in any case, you would like to see my real configs just check out &lt;a href=&#34;https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim&#34;&gt;my Dotfiles&lt;/a&gt;.&lt;/p&gt;
+In in any case, you would like to see my real configs just check out &lt;a href=&#34;https://github.com/Aamon-Magnusson/Dotfiles/tree/main/nvim&#34;&gt;my Dotfiles&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h1&gt;
 &lt;p&gt;From there I would recommend using &lt;code&gt;Vim&lt;/code&gt; or &lt;code&gt;Neovim&lt;/code&gt;.
 Try to use the keybindings I mentioned above in the &lt;a href=&#34;#vimtutor&#34;&gt;&lt;code&gt;vimtutor&lt;/code&gt; section&lt;/a&gt;.
