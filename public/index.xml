@@ -164,11 +164,11 @@ And even then it was continuous improvement to my config, and my skills.&lt;/p&g
       
       <guid>http://aamon.xyz/bookmarks/</guid>
       <description>This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.
-My NextCloud instance: NextCloud (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet) my Github: Github </description>
+My NextCloud instance: NextCloud (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet) My Github: Github </description>
       <content>&lt;p&gt;This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;My &lt;code&gt;NextCloud&lt;/code&gt; instance: &lt;a href=&#34;http://aamonserver:81&#34;&gt;NextCloud&lt;/a&gt; (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet)&lt;/li&gt;
-&lt;li&gt;my &lt;code&gt;Github&lt;/code&gt;: &lt;a href=&#34;https://github.aamon.xyz&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My &lt;code&gt;Github&lt;/code&gt;: &lt;a href=&#34;github.aamon.xyz&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -318,7 +318,7 @@ DWM I have spent a fairly significant amount of time setting up my DWM config, w
       <content>&lt;p&gt;This page will showcase some things that I have done or made that I am proud of.
 Not all are technical, just whatever comes to mind.&lt;/p&gt;
 &lt;h1 id=&#34;dwm&#34;&gt;&lt;code&gt;DWM&lt;/code&gt;&lt;/h1&gt;
-&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;https://github.aamon.xyz&#34;&gt;Github&lt;/a&gt;.
+&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;github.aamon.xyz&#34;&gt;Github&lt;/a&gt;.
 Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space.
 While &lt;code&gt;DWM&lt;/code&gt; is window manager, I have created a desktop environment, to an extent.
 Nearly everything that I need to make a bare Arch Linux install usable is installed through one script.&lt;/p&gt;

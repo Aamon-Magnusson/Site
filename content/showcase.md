@@ -9,7 +9,7 @@ Not all are technical, just whatever comes to mind.
 
 # `DWM`
 
-I have spent a fairly significant amount of time setting up my `DWM` config, which can be found on [Github](https://github.aamon.xyz).
+I have spent a fairly significant amount of time setting up my `DWM` config, which can be found on [Github](github.aamon.xyz).
 Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space.
 While `DWM` is window manager, I have created a desktop environment, to an extent.
 Nearly everything that I need to make a bare Arch Linux install usable is installed through one script.
