@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aamon&#39;s site</title>
-    <link>http://142.59.180.132/categories/</link>
+    <link>http://aamon.xyz/categories/</link>
     <description>Recent content in Categories on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Aamon Magnusson - 2022</copyright><atom:link href="http://142.59.180.132/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Aamon Magnusson - 2022</copyright><atom:link href="http://aamon.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

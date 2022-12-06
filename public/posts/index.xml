@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aamon&#39;s site</title>
-    <link>http://142.59.180.132/posts/</link>
+    <link>http://aamon.xyz/posts/</link>
     <description>Recent content in Posts on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://142.59.180.132/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://aamon.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tmux</title>
-      <link>http://142.59.180.132/posts/tmux/</link>
+      <link>http://aamon.xyz/posts/tmux/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/tmux/</guid>
+      <guid>http://aamon.xyz/posts/tmux/</guid>
       <description>Intro tmux is a well known terminal multiplexer. I like to think of it as a window manager for within terminal sessions. Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.
 I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning tmux for some time. I found that DWM was enough terminal control for me, until I started using server ssh sessions more often.</description>
       <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
@@ -69,10 +69,10 @@ I haven&amp;rsquo;t quite found a use case for it yet, but once I don I&amp;rsqu
     
     <item>
       <title>Vim</title>
-      <link>http://142.59.180.132/posts/vim/</link>
+      <link>http://aamon.xyz/posts/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/vim/</guid>
+      <guid>http://aamon.xyz/posts/vim/</guid>
       <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
 I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
@@ -159,10 +159,10 @@ And even then it was continuous improvement to my config, and my skills.&lt;/p&g
     
     <item>
       <title>Next Cloud</title>
-      <link>http://142.59.180.132/posts/nextcloud/</link>
+      <link>http://aamon.xyz/posts/nextcloud/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/nextcloud/</guid>
+      <guid>http://aamon.xyz/posts/nextcloud/</guid>
       <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
 NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
       <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
@@ -213,10 +213,10 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://142.59.180.132/posts/hugosetup/</link>
+      <link>http://aamon.xyz/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/hugosetup/</guid>
+      <guid>http://aamon.xyz/posts/hugosetup/</guid>
       <description>This site is written using the Hugo framework. As written on their website:
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 Thus far, I find those statements to be true. By the number of themes I&amp;rsquo;ve been able to find, it does seem popular. It is most definitely fast, and is fairly flexible (for what I have the skill to do this thus far).</description>
@@ -256,7 +256,7 @@ This makes it feel like that much more of a website, at least to me&amp;hellip;
 Within my WiFi network&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I have also set up port forwarding to make the site accessible everywhere on the Internet.
 This was much easier than expected, going into the &amp;ldquo;Port Forwarding&amp;rdquo; setting in my router.
-I may eventually get my own domain name, which is not super expensive, but not yet.&lt;/p&gt;
+I also purchased my own domain name, so this site can be viewed from &lt;a href=&#34;http://aamon.xyz&#34;&gt;aamon.xyz&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I plan on getting a cron job working to update the site to whatever is pushed up to my &lt;code&gt;Github&lt;/code&gt;, but so far I have not been able to make that work.
 Will show my steps to that at a later date.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;

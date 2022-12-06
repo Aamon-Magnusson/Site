@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aamon&#39;s site</title>
-    <link>http://142.59.180.132/</link>
+    <link>http://aamon.xyz/</link>
     <description>Recent content on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="http://142.59.180.132/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2022 12:31:23 -0700</lastBuildDate><atom:link href="http://aamon.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tmux</title>
-      <link>http://142.59.180.132/posts/tmux/</link>
+      <link>http://aamon.xyz/posts/tmux/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/tmux/</guid>
+      <guid>http://aamon.xyz/posts/tmux/</guid>
       <description>Intro tmux is a well known terminal multiplexer. I like to think of it as a window manager for within terminal sessions. Allowing the user to have multiple terminal sessions within a single terminal session, in the form of splits or tabs.
 I&amp;rsquo;m going to be honest, I&amp;rsquo;ve been against learning tmux for some time. I found that DWM was enough terminal control for me, until I started using server ssh sessions more often.</description>
       <content>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
@@ -69,10 +69,10 @@ I haven&amp;rsquo;t quite found a use case for it yet, but once I don I&amp;rsqu
     
     <item>
       <title>Vim</title>
-      <link>http://142.59.180.132/posts/vim/</link>
+      <link>http://aamon.xyz/posts/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/vim/</guid>
+      <guid>http://aamon.xyz/posts/vim/</guid>
       <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
 I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
@@ -159,25 +159,26 @@ And even then it was continuous improvement to my config, and my skills.&lt;/p&g
     
     <item>
       <title>Bookmarks</title>
-      <link>http://142.59.180.132/bookmarks/</link>
+      <link>http://aamon.xyz/bookmarks/</link>
       <pubDate>Sat, 19 Nov 2022 11:58:36 -0700</pubDate>
       
-      <guid>http://142.59.180.132/bookmarks/</guid>
+      <guid>http://aamon.xyz/bookmarks/</guid>
       <description>This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.
-My NextCloud instance: NextCloud (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet) </description>
+My NextCloud instance: NextCloud (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet) my Github: Github </description>
       <content>&lt;p&gt;This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;My &lt;code&gt;NextCloud&lt;/code&gt; instance: &lt;a href=&#34;http://aamonserver:81&#34;&gt;NextCloud&lt;/a&gt; (This will only work within my LAN, don&amp;rsquo;t want that open to the Internet)&lt;/li&gt;
+&lt;li&gt;my &lt;code&gt;Github&lt;/code&gt;: &lt;a href=&#34;https://github.aamon.xyz&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
     
     <item>
       <title>Next Cloud</title>
-      <link>http://142.59.180.132/posts/nextcloud/</link>
+      <link>http://aamon.xyz/posts/nextcloud/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/nextcloud/</guid>
+      <guid>http://aamon.xyz/posts/nextcloud/</guid>
       <description>As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4. Since my goal with is it to make it the best server for myself that I can, it is now running my own NextCloud instance.
 NextCloud is an open open-source alternative to Google Drive, OneDrive, or Dropbox. As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.</description>
       <content>&lt;p&gt;As should already be known, I&amp;rsquo;m hosting this site off of my Raspberry Pi 4.
@@ -228,10 +229,10 @@ I created a file called &lt;code&gt;nextCloud.sh&lt;/code&gt; and wrote the foll
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://142.59.180.132/posts/hugosetup/</link>
+      <link>http://aamon.xyz/posts/hugosetup/</link>
       <pubDate>Thu, 17 Nov 2022 19:16:25 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/hugosetup/</guid>
+      <guid>http://aamon.xyz/posts/hugosetup/</guid>
       <description>This site is written using the Hugo framework. As written on their website:
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 Thus far, I find those statements to be true. By the number of themes I&amp;rsquo;ve been able to find, it does seem popular. It is most definitely fast, and is fairly flexible (for what I have the skill to do this thus far).</description>
@@ -271,7 +272,7 @@ This makes it feel like that much more of a website, at least to me&amp;hellip;
 Within my WiFi network&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I have also set up port forwarding to make the site accessible everywhere on the Internet.
 This was much easier than expected, going into the &amp;ldquo;Port Forwarding&amp;rdquo; setting in my router.
-I may eventually get my own domain name, which is not super expensive, but not yet.&lt;/p&gt;
+I also purchased my own domain name, so this site can be viewed from &lt;a href=&#34;http://aamon.xyz&#34;&gt;aamon.xyz&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I plan on getting a cron job working to update the site to whatever is pushed up to my &lt;code&gt;Github&lt;/code&gt;, but so far I have not been able to make that work.
 Will show my steps to that at a later date.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -308,16 +309,16 @@ Will show my steps to that at a later date.&lt;/p&gt;
     
     <item>
       <title>Showcase</title>
-      <link>http://142.59.180.132/showcase/</link>
+      <link>http://aamon.xyz/showcase/</link>
       <pubDate>Thu, 17 Nov 2022 12:28:55 -0700</pubDate>
       
-      <guid>http://142.59.180.132/showcase/</guid>
+      <guid>http://aamon.xyz/showcase/</guid>
       <description>This page will showcase some things that I have done or made that I am proud of. Not all are technical, just whatever comes to mind.
 DWM I have spent a fairly significant amount of time setting up my DWM config, which can be found on Github. Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space. While DWM is window manager, I have created a desktop environment, to an extent.</description>
       <content>&lt;p&gt;This page will showcase some things that I have done or made that I am proud of.
 Not all are technical, just whatever comes to mind.&lt;/p&gt;
 &lt;h1 id=&#34;dwm&#34;&gt;&lt;code&gt;DWM&lt;/code&gt;&lt;/h1&gt;
-&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;https://github.com/Aamon-Magnusson/AamonDwm&#34;&gt;Github&lt;/a&gt;.
+&lt;p&gt;I have spent a fairly significant amount of time setting up my &lt;code&gt;DWM&lt;/code&gt; config, which can be found on &lt;a href=&#34;https://github.aamon.xyz&#34;&gt;Github&lt;/a&gt;.
 Through it I have taken the time to learn Git, patching, bash scripting, and customization within the FOSS space.
 While &lt;code&gt;DWM&lt;/code&gt; is window manager, I have created a desktop environment, to an extent.
 Nearly everything that I need to make a bare Arch Linux install usable is installed through one script.&lt;/p&gt;
@@ -346,10 +347,10 @@ I plan on running a half Ironman this upcoming summer, getting me back in the po
     
     <item>
       <title>About</title>
-      <link>http://142.59.180.132/about/</link>
+      <link>http://aamon.xyz/about/</link>
       <pubDate>Wed, 16 Nov 2022 19:41:02 -0700</pubDate>
       
-      <guid>http://142.59.180.132/about/</guid>
+      <guid>http://aamon.xyz/about/</guid>
       <description>Hello,
 I&amp;rsquo;m Aamon.
 I work as a cyber security analyst. Within that I work as a pentester, SOC analyst, and what ever else I&amp;rsquo;m given.

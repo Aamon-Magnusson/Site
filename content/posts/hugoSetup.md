@@ -63,7 +63,7 @@ Within my WiFi network...
 
 I have also set up port forwarding to make the site accessible everywhere on the Internet.
 This was much easier than expected, going into the "Port Forwarding" setting in my router.
-I may eventually get my own domain name, which is not super expensive, but not yet.
+I also purchased my own domain name, so this site can be viewed from [aamon.xyz](http://aamon.xyz).
 
 I plan on getting a cron job working to update the site to whatever is pushed up to my `Github`, but so far I have not been able to make that work.
 Will show my steps to that at a later date.

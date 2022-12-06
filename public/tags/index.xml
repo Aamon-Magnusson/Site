@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aamon&#39;s site</title>
-    <link>http://142.59.180.132/tags/</link>
+    <link>http://aamon.xyz/tags/</link>
     <description>Recent content in Tags on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://142.59.180.132/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://aamon.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How-To</title>
-      <link>http://142.59.180.132/tags/how-to/</link>
+      <link>http://aamon.xyz/tags/how-to/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://142.59.180.132/tags/how-to/</guid>
+      <guid>http://aamon.xyz/tags/how-to/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://142.59.180.132/tags/software/</link>
+      <link>http://aamon.xyz/tags/software/</link>
       <pubDate>Tue, 29 Nov 2022 22:10:35 -0700</pubDate>
       
-      <guid>http://142.59.180.132/tags/software/</guid>
+      <guid>http://aamon.xyz/tags/software/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://142.59.180.132/tags/vim/</link>
+      <link>http://aamon.xyz/tags/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://142.59.180.132/tags/vim/</guid>
+      <guid>http://aamon.xyz/tags/vim/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Self-host</title>
-      <link>http://142.59.180.132/tags/self-host/</link>
+      <link>http://aamon.xyz/tags/self-host/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://142.59.180.132/tags/self-host/</guid>
+      <guid>http://aamon.xyz/tags/self-host/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Server</title>
-      <link>http://142.59.180.132/tags/server/</link>
+      <link>http://aamon.xyz/tags/server/</link>
       <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
       
-      <guid>http://142.59.180.132/tags/server/</guid>
+      <guid>http://aamon.xyz/tags/server/</guid>
       <description></description>
       <content></content>
     </item>

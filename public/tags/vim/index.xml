@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on Aamon&#39;s site</title>
-    <link>http://142.59.180.132/tags/vim/</link>
+    <link>http://aamon.xyz/tags/vim/</link>
     <description>Recent content in Vim on Aamon&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Mon, 21 Nov 2022 20:18:28 -0700</lastBuildDate><atom:link href="http://142.59.180.132/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 20:18:28 -0700</lastBuildDate><atom:link href="http://aamon.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vim</title>
-      <link>http://142.59.180.132/posts/vim/</link>
+      <link>http://aamon.xyz/posts/vim/</link>
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
-      <guid>http://142.59.180.132/posts/vim/</guid>
+      <guid>http://aamon.xyz/posts/vim/</guid>
       <description>Intro Vi, Vim, Neovim&amp;hellip;
 The Vi based text editors are known for their complexity, nuance, and speed, for those who learn it.
 I happen to love using Neovim as my primary text editor, and find it super beneficial to writing and editing text files. I do try to use text files more often than the average person, using Markdown where ever possible over Word, or other word processors, for example.</description>
