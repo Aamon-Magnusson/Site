@@ -7,4 +7,4 @@ author: "Aamon"
 This is a list of bookmarks that I wanted to list, some will be self hosted, most will not.
 
 * My `NextCloud` instance: [NextCloud](http://aamonserver:81) (This will only work within my LAN, don't want that open to the Internet)
-* My `Github`: [Github](http://github.aamon.xyz)
+* My `Github`: [Github](http://github.aamon.xyz/)
