@@ -54,7 +54,14 @@ Don't want to force too many, but these ones I find useful from the stat.
 <C-b> n Next tab
 <C-b> p Previous tab
 <C-b> <number> Move to respective tab
-<C-b> <arrow key> Move to respective split
+<C-b> <arrow key> Move in direction of respective split
+
+<C-b> <A-1> Change to even-horizontal layout
+<C-b> <A-2> Change to even-vertical layout
+<C-b> <A-3> Change to main-horizontal layout
+<C-b> <A-4> Change to main-vertical layout
+<C-b> <A-5> Change to tiled layout
+<C-b> <space> Change to next layout
 
 <C-b> , Rename tab
 

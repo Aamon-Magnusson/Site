@@ -51,7 +51,14 @@ Don&amp;rsquo;t want to force too many, but these ones I find useful from the st
 &amp;lt;C-b&amp;gt; n Next tab
 &amp;lt;C-b&amp;gt; p Previous tab
 &amp;lt;C-b&amp;gt; &amp;lt;number&amp;gt; Move to respective tab
-&amp;lt;C-b&amp;gt; &amp;lt;arrow key&amp;gt; Move to respective split
+&amp;lt;C-b&amp;gt; &amp;lt;arrow key&amp;gt; Move in direction of respective split
+
+&amp;lt;C-b&amp;gt; &amp;lt;A-1&amp;gt; Change to even-horizontal layout
+&amp;lt;C-b&amp;gt; &amp;lt;A-2&amp;gt; Change to even-vertical layout
+&amp;lt;C-b&amp;gt; &amp;lt;A-3&amp;gt; Change to main-horizontal layout
+&amp;lt;C-b&amp;gt; &amp;lt;A-4&amp;gt; Change to main-vertical layout
+&amp;lt;C-b&amp;gt; &amp;lt;A-5&amp;gt; Change to tiled layout
+&amp;lt;C-b&amp;gt; &amp;lt;space&amp;gt; Change to next layout
 
 &amp;lt;C-b&amp;gt; , Rename tab
 
