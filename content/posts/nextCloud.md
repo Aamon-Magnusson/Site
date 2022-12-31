@@ -1,11 +1,11 @@
 +++
-title = "Next Cloud"
+title = "Nextcloud"
 date = "2022-11-19T11:18:22-07:00"
 author = "Aamon"
 #cover = ""
 tags = ["Server", "Self-host"]
 #keywords = ["", ""]
-description = "Here's how I set up my `NextCloud` instance locally."
+description = "Here's how I set up my `Nextcloud` instance locally."
 showFullContent = false
 readingTime = true
 hideComments = false
@@ -13,12 +13,12 @@ hideComments = false
 +++
 
 As should already be known, I'm hosting this site off of my Raspberry Pi 4.
-Since my goal with is it to make it the best server **for myself** that I can, it is now running my own `NextCloud` instance.
+Since my goal with is it to make it the best server **for myself** that I can, it is now running my own `Nextcloud` instance.
 
-`NextCloud` is an open open-source alternative to Google Drive, OneDrive, or Dropbox.
+`Nextcloud` is an open open-source alternative to Google Drive, OneDrive, or Dropbox.
 As with the other services, you can pay for cloud hosted access, which makes it feel like all the other cloud shares.
 (While being open-source, which is still cool)
-What makes `NextCloud` special is that you can also self host your own instance.
+What makes `Nextcloud` special is that you can also self host your own instance.
 
 They have a few options for hosting:
 

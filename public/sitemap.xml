@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://aamon.xyz/posts/</loc>
+    <lastmod>2022-12-30T14:49:01-07:00</lastmod>
+  </url><url>
+    <loc>http://aamon.xyz/tags/self-host/</loc>
+    <lastmod>2022-12-30T14:49:01-07:00</lastmod>
+  </url><url>
+    <loc>http://aamon.xyz/tags/server/</loc>
+    <lastmod>2022-12-30T14:49:01-07:00</lastmod>
+  </url><url>
+    <loc>http://aamon.xyz/posts/server-update/</loc>
+    <lastmod>2022-12-30T14:49:01-07:00</lastmod>
+  </url><url>
+    <loc>http://aamon.xyz/tags/</loc>
+    <lastmod>2022-12-30T14:49:01-07:00</lastmod>
+  </url><url>
     <loc>http://aamon.xyz/tags/how-to/</loc>
     <lastmod>2022-11-29T22:10:35-07:00</lastmod>
   </url><url>
-    <loc>http://aamon.xyz/posts/</loc>
-    <lastmod>2022-11-29T22:10:35-07:00</lastmod>
-  </url><url>
     <loc>http://aamon.xyz/tags/software/</loc>
-    <lastmod>2022-11-29T22:10:35-07:00</lastmod>
-  </url><url>
-    <loc>http://aamon.xyz/tags/</loc>
     <lastmod>2022-11-29T22:10:35-07:00</lastmod>
   </url><url>
     <loc>http://aamon.xyz/posts/tmux/</loc>
@@ -27,12 +36,6 @@
     <lastmod>2022-11-19T11:58:36-07:00</lastmod>
   </url><url>
     <loc>http://aamon.xyz/posts/nextcloud/</loc>
-    <lastmod>2022-11-19T11:18:22-07:00</lastmod>
-  </url><url>
-    <loc>http://aamon.xyz/tags/self-host/</loc>
-    <lastmod>2022-11-19T11:18:22-07:00</lastmod>
-  </url><url>
-    <loc>http://aamon.xyz/tags/server/</loc>
     <lastmod>2022-11-19T11:18:22-07:00</lastmod>
   </url><url>
     <loc>http://aamon.xyz/posts/hugosetup/</loc>

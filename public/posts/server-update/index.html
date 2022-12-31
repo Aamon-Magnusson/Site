@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Server Update :: Aamon&#39;s site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An update to my self hosted server." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://aamon.xyz/posts/server-update/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/style.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://aamon.xyz/img/theme-colors/pink.png">
+  <link rel="apple-touch-icon" href="http://aamon.xyz/img/theme-colors/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Server Update">
+<meta property="og:description" content="An update to my self hosted server." />
+<meta property="og:url" content="http://aamon.xyz/posts/server-update/" />
+<meta property="og:site_name" content="Aamon&#39;s site" />
+
+  
+    <meta property="og:image" content="http://aamon.xyz/img/favicon/pink.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-12-30 14:49:01 -0700 MST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="pink">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Aamon&#39;s Site
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/bookmarks">Bookmarks</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/showcase">Showcase</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://aamon.xyz/posts/server-update/">Server Update</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2022-12-30 ::
+        
+      </time>
+    
+    
+      <span class="post-author">Aamon</span>
+    
+    
+      <span class="post-reading-time">:: 4 min read (739 words)</span>
+    
+  </div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://aamon.xyz/tags/server/">Server</a>&nbsp;
+      
+      #<a href="http://aamon.xyz/tags/self-host/">Self-host</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>As can be read from my <a href="http://aamon.xyz/posts/hugosetup/">Hugo Setup</a> and <a href="http://aamon.xyz/posts/nextcloud/">Nextcloud</a> posts, currently my site is running off of a Raspberry Pi 4.
+It is still proving to be a great low power server, with fairly good performance.
+It&rsquo;s not like it should replace dedicated servers, but I like it for what I need.</p>
+<p>I am now running a couple new services, which I will go through in the post.
+In total I am running the following (in order of installation):</p>
+<ul>
+<li><code>Apache</code></li>
+<li><code>Nextcloud</code></li>
+<li><code>Pi-hole</code></li>
+<li><code>PiVPN</code> (<code>Wireguard</code>)</li>
+</ul>
+<p>I also have some future plans of other things to host, and run.</p>
+<h1 id="apache"><code>Apache</code><a href="#apache" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Not much has changed about the <code>Apache</code> running.
+I did try to setup certificates, but that ended up breaking the installation, which caused me to re-image the Pi entirely.</p>
+<p>I have the port open to make the site accessible from the internet, and that&rsquo;s about all for fancy configuration.</p>
+<h1 id="nextcloud"><code>Nextcloud</code><a href="#nextcloud" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>The installation instructions from <a href="http://aamon.xyz/posts/nextcloud/">my Nextcloud post</a> worked great again when I had to reinstall <code>Nextcloud</code>.</p>
+<p>Past that not much has changed.</p>
+<h1 id="pi-hole"><code>Pi-hole</code><a href="#pi-hole" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p><code>Pi-hole</code> is a <code>DNS</code> ad-blocker.
+I use it on my entire home network, as the default <code>DNS</code> server.
+(That is set in my router)</p>
+<p>It&rsquo;s not perfect, and I don&rsquo;t think I would recommend it.
+It doesn&rsquo;t work on YouTube ads, and messes with the sponsored links from google.</p>
+<p>But I&rsquo;m running it now, so I might as well keep it.</p>
+<h2 id="installation">Installation<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The installation is super simple.
+Run the &ldquo;One-Step automated install&rdquo; from their GitHub:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -sSL https://install.pi-hole.net | bash
+</span></span></code></pre></div><p>Follow the instructions, and make the needed changes to your router.
+(If you want it to be the default <code>DNS</code> server)</p>
+<h2 id="fixes">Fixes<a href="#fixes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>There are a couple things that might need fixing.</p>
+<p>When I first set it up ads were still showing up on my Windows machine, that can be fixed by disabling IPv6 on the machine.
+Instead of doing that I disabled it for the entire network, in my router.</p>
+<p>Through a few weeks of use I noticed my YouTube watched history was not working.
+Turns out there are several domains that will get blocked that are needed for some small function in several sites and services.
+The list of known domains that may be needed can be found <a href="https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212">here</a>.
+To fix my particular issue run I ran the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pihole -w s.youtube.com
+</span></span><span style="display:flex;"><span>pihole -w video-stats.l.google.com
+</span></span></code></pre></div><h1 id="pivpn"><code>PiVPN</code><a href="#pivpn" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p><code>PiVPN</code> is simply an installer for either <code>Wireguard</code> or <code>OpenVPN</code>.
+Either of which will allow you to <code>VPN</code> into the network from which the device is hosting the service is from.</p>
+<p>I am using it as a method to access some things that are within my network, but not accessible from the internet.
+Like my <code>Nextcloud</code> instance, and to access my Raspberry Pi and Kali machines through <code>ssh</code>.</p>
+<p>This also means I can work from home, from anywhere.
+Some things I do with work are linked to my IP, which I am able to use through the VPN.</p>
+<h2 id="installation-1">Installation<a href="#installation-1" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Similar to <code>Pi-hole</code>, the install is done through one command, and some guided questions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -L https://install.pivpn.io | bash
+</span></span></code></pre></div><p>From there you will also have to open a port on your router, which will depend on the service you use, and if you change the port during install.</p>
+<p>The <code>Wireguard</code> apps are super easy to use, and seem really quick.</p>
+<h1 id="plans">Plans<a href="#plans" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>I have several services I would like to add, and some clean up I need to do.</p>
+<ul>
+<li>First on my list, I would like to get a reverse proxy/tunnel set up with CloudFlare.
+I&rsquo;m hoping this will be an easy way to secure any services I want open to the internet.</li>
+<li>Next I would like to set up an app like Memo, for taking quick notes.
+I currently use Google Keep, but self-hosting would be good.
+Plus it would be Markdown.</li>
+<li>Not that I think I will self-host it, but I would like an email server.
+I&rsquo;m thinking I will use AWS SES, due to the complexity of self-hosting.
+This will be used for the next service.</li>
+<li>I&rsquo;m thinking I would like my own password manager.
+I&rsquo;m leaning towards Bitwarden, but that is not final.</li>
+<li>Past this are just potentially cool things that I might do someday, but not soon, like a Matrix server, so that I can have my own chat room, and an RSS feed collector.
+Oh, and I could also run a Minecraft server, for the <em>lols</em>.
+These will be a fair bit further out though.</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="http://aamon.xyz/posts/tmux/">
+                <span class="button__text">Tmux</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>Aamon Magnusson - 2022</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

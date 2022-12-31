@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aamon Magnusson - 2022</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 22:10:35 -0700</lastBuildDate><atom:link href="http://aamon.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 14:49:01 -0700</lastBuildDate><atom:link href="http://aamon.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-host</title>
+      <link>http://aamon.xyz/tags/self-host/</link>
+      <pubDate>Fri, 30 Dec 2022 14:49:01 -0700</pubDate>
+      
+      <guid>http://aamon.xyz/tags/self-host/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>http://aamon.xyz/tags/server/</link>
+      <pubDate>Fri, 30 Dec 2022 14:49:01 -0700</pubDate>
+      
+      <guid>http://aamon.xyz/tags/server/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>How-To</title>
       <link>http://aamon.xyz/tags/how-to/</link>
@@ -34,26 +54,6 @@
       <pubDate>Mon, 21 Nov 2022 20:18:28 -0700</pubDate>
       
       <guid>http://aamon.xyz/tags/vim/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Self-host</title>
-      <link>http://aamon.xyz/tags/self-host/</link>
-      <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
-      
-      <guid>http://aamon.xyz/tags/self-host/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Server</title>
-      <link>http://aamon.xyz/tags/server/</link>
-      <pubDate>Sat, 19 Nov 2022 11:18:22 -0700</pubDate>
-      
-      <guid>http://aamon.xyz/tags/server/</guid>
       <description></description>
       <content></content>
     </item>
